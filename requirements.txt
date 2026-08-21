@@ -1,0 +1,6 @@
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+PyYAML>=6.0
+# Opcional: extracción de texto de PDFs de la Gaceta (activar gaceta.pdf_full_text)
+pypdf>=4.2 ; python_version >= "3.9"

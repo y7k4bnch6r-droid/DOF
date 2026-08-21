@@ -1,0 +1,73 @@
+# Términos vigilados. Los patrones se comparan sobre texto normalizado
+# (minúsculas, sin acentos, espacios colapsados), con frontera de palabra.
+#   *      -> resto de la palabra:   "envejec*" cubre envejecimiento/envejecer
+#   re:... -> expresión regular cruda sobre el texto normalizado
+terms:
+  - id: personas_mayores
+    label: "Personas mayores"
+    weight: 2
+    patterns:
+      - "personas mayores"
+      - "persona mayor"
+      - "personas adultas mayores"
+      - "persona adulta mayor"
+      - "adultos mayores"
+      - "adulto mayor"
+      - "adultas mayores"
+      - "adulta mayor"
+
+  - id: vejez
+    label: "Vejez"
+    weight: 2
+    patterns:
+      - "vejez"
+      - "vejeces"
+
+  - id: envejecimiento
+    label: "Envejecimiento"
+    weight: 2
+    patterns:
+      - "envejec*"        # envejecimiento, envejecer, envejecida, envejeciente
+
+  # --- Términos complementarios: desactivados por defecto ---
+  # Cámbialos a enabled: true si quieres un barrido más amplio.
+  - id: inapam
+    label: "INAPAM / institucionalidad"
+    enabled: false
+    patterns:
+      - "inapam"
+      - "instituto nacional de las personas adultas mayores"
+      - "consejo nacional de las personas adultas mayores"
+
+  - id: geriatria
+    label: "Geriatría y gerontología"
+    enabled: false
+    patterns:
+      - "geriatr*"
+      - "gerontolog*"
+      - "instituto nacional de geriatria"
+
+  - id: pension_bienestar
+    label: "Pensión de bienestar"
+    enabled: false
+    patterns:
+      - "pension para el bienestar de las personas adultas mayores"
+      - "pension no contributiva"
+      - "pension universal"
+
+  - id: cuidados
+    label: "Cuidados de largo plazo"
+    enabled: false
+    patterns:
+      - "cuidados de largo plazo"
+      - "sistema nacional de cuidados"
+      - "casas de dia"
+      - "estancias para personas adultas mayores"
+
+  - id: edadismo
+    label: "Edadismo / discriminación por edad"
+    enabled: false
+    patterns:
+      - "edadismo"
+      - "viejismo"
+      - "discriminacion por edad"

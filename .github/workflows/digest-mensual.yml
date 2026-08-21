@@ -1,0 +1,125 @@
+name: Digest mensual (DOF + Gaceta)
+
+on:
+  schedule:
+    # Día 1 de cada mes a las 09:00 en Ciudad de México (UTC-6) => 15:00 UTC.
+    - cron: "0 15 1 * *"
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Mes a procesar (AAAA-MM). Vacío = mes anterior."
+        required: false
+        type: string
+      titles_only:
+        description: "Sólo títulos (mucho más rápido, menos cobertura)"
+        required: false
+        type: boolean
+        default: false
+      create_issue:
+        description: "Abrir un issue con el digest"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: digest-mensual
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Resolver el mes a procesar
+        id: periodo
+        run: |
+          MES="${{ inputs.month }}"
+          if [ -z "$MES" ]; then
+            MES=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+          fi
+          echo "mes=$MES" >> "$GITHUB_OUTPUT"
+          echo "Procesando $MES"
+
+      - name: Restaurar caché de descargas
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: dofwatch-cache-${{ steps.periodo.outputs.mes }}-${{ github.run_id }}
+          restore-keys: |
+            dofwatch-cache-${{ steps.periodo.outputs.mes }}-
+            dofwatch-cache-
+
+      - name: Ejecutar el monitor
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          DOFWATCH_EMAIL_TO: ${{ secrets.DOFWATCH_EMAIL_TO }}
+          DOFWATCH_WEBHOOK_URL: ${{ secrets.DOFWATCH_WEBHOOK_URL }}
+        run: |
+          ARGS=(-v run --month "${{ steps.periodo.outputs.mes }}" --notify)
+          if [ "${{ inputs.titles_only }}" = "true" ]; then ARGS+=(--titles-only); fi
+          python -m dofwatch.cli "${ARGS[@]}"
+
+      - name: Publicar resumen en el job
+        run: |
+          {
+            echo "## Digest ${{ steps.periodo.outputs.mes }}"
+            echo
+            head -c 60000 "digests/${{ steps.periodo.outputs.mes }}.md"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Guardar el digest como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ steps.periodo.outputs.mes }}
+          path: digests/${{ steps.periodo.outputs.mes }}.*
+          if-no-files-found: error
+
+      - name: Commit del digest y del historial
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digests data/state.sqlite3
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear"
+            exit 0
+          fi
+          git commit -m "digest: ${{ steps.periodo.outputs.mes }} (DOF y Gaceta Parlamentaria)"
+          for intento in 1 2 3 4; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Reintento $intento…"
+            sleep $((2 ** intento))
+          done
+          exit 1
+
+      - name: Abrir issue con el digest
+        if: ${{ github.event_name == 'schedule' || inputs.create_issue }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MES: ${{ steps.periodo.outputs.mes }}
+        run: |
+          gh label create digest --color 7B1E3A --description "Digest mensual" --force || true
+          head -c 60000 "digests/${MES}.md" > /tmp/cuerpo.md
+          printf '\n\n_Digest completo: `digests/%s.md`_\n' "$MES" >> /tmp/cuerpo.md
+          gh issue create \
+            --title "Digest $MES — DOF y Gaceta Parlamentaria (vejez y envejecimiento)" \
+            --body-file /tmp/cuerpo.md \
+            --label digest

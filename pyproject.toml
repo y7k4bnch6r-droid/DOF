@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dofwatch"
+version = "0.1.0"
+description = "Monitor mensual del DOF y la Gaceta Parlamentaria por temas de personas mayores, vejez y envejecimiento"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+pdf = ["pypdf>=4.2"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+dofwatch = "dofwatch.cli:main"
+
+[tool.setuptools]
+packages = ["dofwatch", "dofwatch.sources"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

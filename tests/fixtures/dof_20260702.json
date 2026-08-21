@@ -1,0 +1,34 @@
+{
+  "Existe": true,
+  "CodigoDiario": "MAT_20260702",
+  "NotasMatutinas": [
+    {
+      "codNota": "5712345",
+      "titulo": "ACUERDO por el que se emiten las Reglas de Operación del Programa Pensión para el Bienestar de las Personas Adultas Mayores, para el ejercicio fiscal 2026",
+      "codOrgaUno": "00006",
+      "nombreCodOrgaUno": "SECRETARÍA DE BIENESTAR",
+      "fecha": "02-07-2026"
+    },
+    {
+      "codNota": "5712346",
+      "titulo": "DECRETO por el que se reforma la Ley General de Salud en materia de atención primaria",
+      "codOrgaUno": "00012",
+      "nombreCodOrgaUno": "SECRETARÍA DE SALUD",
+      "fecha": "02-07-2026"
+    },
+    {
+      "codNota": "5712347",
+      "titulo": "TIPO de cambio para solventar obligaciones denominadas en moneda extranjera pagaderas en la República Mexicana",
+      "nombreCodOrgaUno": "BANCO DE MÉXICO",
+      "fecha": "02-07-2026"
+    }
+  ],
+  "NotasVespertinas": [
+    {
+      "codNota": "5712399",
+      "titulo": "AVISO por el que se da a conocer el programa de trabajo del Consejo Consultivo",
+      "nombreCodOrgaUno": "SECRETARÍA DE GOBERNACIÓN",
+      "fecha": "02-07-2026"
+    }
+  ]
+}
