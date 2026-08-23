@@ -8,3 +8,5 @@ venv/
 .env
 data/*.sqlite3-journal
 digests/*.local.*
+radar/state.db
+radar/state.db-journal

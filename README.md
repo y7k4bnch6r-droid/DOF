@@ -180,12 +180,27 @@ config/           keywords.yml y config.yml
 digests/          salidas mensuales
 data/             state.sqlite3 (historial y deduplicación)
 tests/            pruebas con fixtures locales (no tocan la red)
+radar/            radar mensual de Pink Doll (herramienta aparte, ver radar/README.md)
 ```
+
+## Radar Pink Doll
+
+En `radar/` vive una herramienta aparte, sin relación con el DOF: un monitor mensual
+de menciones y métricas de la novela **Pink Doll**, de Juana Inés Dehesa (web,
+noticias, Reddit, YouTube y Goodreads, con deduplicación en SQLite y reporte en
+`radar/reports/AAAA-MM.md`). Es un script suelto, con sus propias dependencias:
+
+```bash
+pip3 install -r radar/requirements.txt
+python3 radar/monitor.py        # o: make radar
+```
+
+Los detalles están en [`radar/README.md`](radar/README.md).
 
 ## Pruebas
 
 ```bash
-python -m pytest        # 75 pruebas, sin red
+python -m pytest        # 89 pruebas, sin red
 ```
 
 Las pruebas usan un cliente HTTP falso que sirve fixtures guardadas en
