@@ -1,0 +1,4 @@
+requests>=2.31
+ddgs>=9.0
+# Opcional: búsqueda y conteo de vistas en YouTube
+# yt-dlp>=2024.1
