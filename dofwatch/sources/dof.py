@@ -10,7 +10,7 @@ import logging
 import re
 from datetime import date
 from typing import Any, Iterable, Iterator
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 
 from ..http import FetchError, HttpClient
 from ..models import Document
@@ -24,6 +24,15 @@ EDICIONES = {
     "notasextraordinarias": ("EXT", "Edición extraordinaria"),
     "notasunicas": ("MAT", "Edición única"),
 }
+
+# El índice diario de dof.gob.mx está partido por edición: la página muestra
+# una y enlaza a la otra con index.php?...&edicion=VES (o MAT, o EXT).
+EDICIONES_WEB = {
+    "MAT": "Edición matutina",
+    "VES": "Edición vespertina",
+    "EXT": "Edición extraordinaria",
+}
+MAX_PAGINAS_POR_DIA = 4
 
 
 def _pick(d: dict, *nombres: str) -> Any:
@@ -103,48 +112,92 @@ class DofSource(Source):
         html = _pick(nota, "cadenaContenido", "contenido", "textoNota") or ""
         return html_to_text(str(html))
 
-    # -- HTML (respaldo) ---------------------------------------------------
-    def _fetch_day_html(self, day: date) -> list[dict]:
-        url = f"{self.web_base}/index.php?year={day.year}&month={day.month:02d}&day={day.day:02d}"
-        try:
-            html = self.client.get_text(url)
-        except FetchError as exc:
-            self.errors.append(f"DOF {day.isoformat()}: {exc}")
-            return []
-        if not html:
-            return []
+    # -- HTML (fuente principal) -------------------------------------------
+    def _index_url(self, day: date, edicion: str | None = None) -> str:
+        url = (
+            f"{self.web_base}/index.php?year={day.year}"
+            f"&month={day.month:02d}&day={day.day:02d}"
+        )
+        return f"{url}&edicion={edicion}" if edicion else url
 
-        soup = make_soup(html)
-        notas: list[dict] = []
-        vistos: set[str] = set()
-        for a in soup.select('a[href*="nota_detalle.php"]'):
-            href = a.get("href") or ""
-            qs = parse_qs(urlparse(href).query)
-            cod = (qs.get("codigo") or [""])[0]
-            titulo = clean(a.get_text(" "))
-            if not cod or not titulo or cod in vistos:
+    def _fetch_day_html(self, day: date) -> list[dict]:
+        """Notas del dia recorriendo la pagina del indice y sus ediciones."""
+        ediciones_ok = {e.upper() for e in self.conf.get("editions", [])}
+        notas: dict[str, dict] = {}
+        pendientes = [self._index_url(day)]
+        vistas: set[str] = set()
+
+        while pendientes and len(vistas) < MAX_PAGINAS_POR_DIA:
+            url = pendientes.pop(0)
+            if url in vistas:
                 continue
-            vistos.add(cod)
-            notas.append(
-                {
-                    "_edicion": self._edicion_html(a),
-                    "codNota": cod,
-                    "titulo": titulo,
-                    "nombreCodOrgaUno": self._organismo_html(a),
-                }
-            )
-        return notas
+            vistas.add(url)
+            try:
+                html = self.client.get_text(url)
+            except FetchError as exc:
+                self.errors.append(f"DOF {day.isoformat()}: {exc}")
+                continue
+            if not html:
+                continue
+
+            soup = make_soup(html)
+            otras = self._otras_ediciones(soup, url, day)
+            codigo_ed, etiqueta = self._edicion_de(url, otras)
+            if not ediciones_ok or codigo_ed in ediciones_ok:
+                for cod, nota in self._notas_de_pagina(soup, etiqueta).items():
+                    notas.setdefault(cod, nota)
+            pendientes.extend(otras)
+
+        return list(notas.values())
 
     @staticmethod
-    def _edicion_html(anchor) -> str:
-        texto = " ".join(
-            clean(p.get_text(" "))[:200] for p in anchor.parents if getattr(p, "name", None) == "table"
-        ).lower()
-        if "vespertina" in texto:
-            return "Edición vespertina"
-        if "extraordinaria" in texto:
-            return "Edición extraordinaria"
-        return "Edición matutina"
+    def _notas_de_pagina(soup, etiqueta: str) -> dict[str, dict]:
+        notas: dict[str, dict] = {}
+        for a in soup.select('a[href*="nota_detalle.php"]'):
+            qs = parse_qs(urlparse(a.get("href") or "").query)
+            cod = (qs.get("codigo") or [""])[0]
+            titulo = clean(a.get_text(" "))
+            if not cod or not titulo or cod in notas:
+                continue
+            notas[cod] = {
+                "_edicion": etiqueta,
+                "codNota": cod,
+                "titulo": titulo,
+                "nombreCodOrgaUno": DofSource._organismo_html(a),
+            }
+        return notas
+
+    def _otras_ediciones(self, soup, url: str, day: date) -> list[str]:
+        """URLs del mismo dia para las demas ediciones enlazadas en la pagina."""
+        destinos: list[str] = []
+        for a in soup.select('a[href*="edicion="]'):
+            destino = urljoin(url, a.get("href") or "")
+            partes = urlparse(destino)
+            if "index.php" not in partes.path:
+                continue
+            qs = parse_qs(partes.query)
+            mismo_dia = (
+                qs.get("year", [""])[0] == str(day.year)
+                and qs.get("month", [""])[0].lstrip("0") == str(day.month)
+                and qs.get("day", [""])[0].lstrip("0") == str(day.day)
+            )
+            if mismo_dia and destino not in destinos:
+                destinos.append(destino)
+        return destinos
+
+    @staticmethod
+    def _edicion_de(url: str, otras: list[str]) -> tuple[str, str]:
+        """Codigo y etiqueta de la edicion que muestra una pagina del indice."""
+        propia = parse_qs(urlparse(url).query).get("edicion", [""])[0].upper()
+        if propia:
+            return propia, EDICIONES_WEB.get(propia, f"Edición {propia}")
+        # Sin parámetro: la página es la edición que *no* aparece enlazada.
+        enlazadas = {
+            parse_qs(urlparse(u).query).get("edicion", [""])[0].upper() for u in otras
+        }
+        if enlazadas == {"MAT"}:
+            return "VES", EDICIONES_WEB["VES"]
+        return "MAT", EDICIONES_WEB["MAT"]
 
     @staticmethod
     def _organismo_html(anchor) -> str | None:
@@ -179,7 +232,7 @@ class DofSource(Source):
             notas = self._fetch_day_api(day)
             via_api = bool(notas)
             if not notas:
-                # Sin respuesta del servicio JSON (o vacía): vamos al HTML público.
+                # El servicio JSON está apagado (o no respondió): HTML público.
                 notas = self._fetch_day_html(day)
             if not notas:
                 continue

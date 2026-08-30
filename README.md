@@ -18,7 +18,7 @@ fixtures de prueba, con datos ficticios).
 
 | Fuente | Qué se recorre | Ruta |
 | --- | --- | --- |
-| DOF | Todas las notas de cada día hábil (matutina, vespertina y extraordinarias) y su texto completo | `dof.gob.mx/index.php?year=…&month=…&day=…` y `nota_detalle.php?codigo=…&fecha=…` (contenido en `#DivDetalleNota`) |
+| DOF | Todas las notas de cada día hábil, de **todas las ediciones** del día, con su texto completo | `dof.gob.mx/index.php?year=…&month=…&day=…` (más `&edicion=MAT/VES/EXT`) y `nota_detalle.php?codigo=…&fecha=…` (contenido en `#DivDetalleNota`) |
 | Gaceta Parlamentaria | Cada asunto del día —iniciativas, dictámenes, proposiciones, convocatorias— con su texto, más los anexos en PDF | `gaceta.diputados.gob.mx/Gaceta/{legislatura}/{año}/{mes}/{AAAAMMDD}.html` |
 
 Dos detalles verificados contra los sitios reales (agosto de 2026):
@@ -29,6 +29,9 @@ Dos detalles verificados contra los sitios reales (agosto de 2026):
   basta encenderlo.
 - Hay que usar **`dof.gob.mx` sin `www`**: el certificado sólo cubre el dominio
   desnudo, así que `www.dof.gob.mx` falla la verificación TLS.
+- El índice diario del DOF **está partido por edición**: la página muestra una y
+  enlaza a las demás con `&edicion=MAT|VES|EXT`. El monitor sigue esos enlaces y
+  deduplica por código de nota, así que cubre el día completo.
 - La Gaceta publica **todo el día en una sola página**: el índice (`div#Indice`, con
   `a.Seccion` y `a.Indice`) enlaza por ancla al texto completo de cada asunto dentro
   de `div#Contenido`. El monitor emite un documento por asunto —con enlace directo a
@@ -213,7 +216,7 @@ internet.
 ## Pruebas
 
 ```bash
-python -m pytest        # 75 pruebas, sin red
+python -m pytest        # 80 pruebas, sin red
 ```
 
 Las pruebas usan un cliente HTTP falso que sirve fixtures guardadas en
@@ -236,5 +239,7 @@ Las pruebas usan un cliente HTTP falso que sirve fixtures guardadas en
   listadas al final del digest y en la tabla `runs` de la base de datos.
 - Las rutas y el marcado están verificados contra los sitios reales desde un runner de
   GitHub Actions (agosto de 2026); las pruebas locales usan fixtures con esa misma
-  estructura. Para una corrida acotada de comprobación:
-  `python -m dofwatch.cli -v run --since 2026-08-24 --until 2026-08-28`.
+  estructura. Una corrida real del 24 al 28 de agosto de 2026 revisó 243 publicaciones
+  (93 del DOF y 150 de la Gaceta), encontró 28 con menciones y no reportó incidencias.
+  Para repetir esa comprobación:
+  `python -m dofwatch.cli -v run --since 2026-08-24 --until 2026-08-28 --dry-run`.

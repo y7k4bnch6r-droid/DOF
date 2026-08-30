@@ -41,6 +41,7 @@ jobs:
           FECHA: ${{ inputs.fecha || '2026-08-28' }}
         run: |
           set -u
+          FECHA="${FECHA%%,*}"   # este paso sondea una sola fecha
           D=$(date -u -d "$FECHA" +%d-%m-%Y)
           Y=$(date -u -d "$FECHA" +%Y); M=$(date -u -d "$FECHA" +%m); DD=$(date -u -d "$FECHA" +%d)
 
