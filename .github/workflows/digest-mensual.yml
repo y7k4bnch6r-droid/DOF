@@ -10,8 +10,21 @@ on:
         description: "Mes a procesar (AAAA-MM). Vacío = mes anterior."
         required: false
         type: string
+      since:
+        description: "Inicio de un rango (AAAA-MM-DD). Si se usa, gana sobre el mes."
+        required: false
+        type: string
+      until:
+        description: "Fin del rango (AAAA-MM-DD). Obligatorio si se usa 'since'."
+        required: false
+        type: string
       titles_only:
         description: "Sólo títulos (mucho más rápido, menos cobertura)"
+        required: false
+        type: boolean
+        default: false
+      dry_run:
+        description: "Prueba: no escribe digest, ni commit, ni issue"
         required: false
         type: boolean
         default: false
@@ -44,15 +57,30 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Resolver el mes a procesar
+      - name: Resolver el periodo a procesar
         id: periodo
+        env:
+          MONTH: ${{ inputs.month }}
+          SINCE: ${{ inputs.since }}
+          UNTIL: ${{ inputs.until }}
         run: |
-          MES="${{ inputs.month }}"
-          if [ -z "$MES" ]; then
-            MES=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+          if [ -n "$SINCE" ] || [ -n "$UNTIL" ]; then
+            if [ -z "$SINCE" ] || [ -z "$UNTIL" ]; then
+              echo "::error::'since' y 'until' deben usarse juntos"
+              exit 1
+            fi
+            echo "args=--since $SINCE --until $UNTIL" >> "$GITHUB_OUTPUT"
+            echo "mes=${SINCE:0:7}" >> "$GITHUB_OUTPUT"
+            echo "etiqueta=$SINCE..$UNTIL" >> "$GITHUB_OUTPUT"
+          else
+            MES="$MONTH"
+            if [ -z "$MES" ]; then
+              MES=$(date -u -d "$(date -u +%Y-%m-01) -1 day" +%Y-%m)
+            fi
+            echo "args=--month $MES" >> "$GITHUB_OUTPUT"
+            echo "mes=$MES" >> "$GITHUB_OUTPUT"
+            echo "etiqueta=$MES" >> "$GITHUB_OUTPUT"
           fi
-          echo "mes=$MES" >> "$GITHUB_OUTPUT"
-          echo "Procesando $MES"
 
       - name: Restaurar caché de descargas
         uses: actions/cache@v4
@@ -73,19 +101,36 @@ jobs:
           DOFWATCH_EMAIL_TO: ${{ secrets.DOFWATCH_EMAIL_TO }}
           DOFWATCH_WEBHOOK_URL: ${{ secrets.DOFWATCH_WEBHOOK_URL }}
         run: |
-          ARGS=(-v run --month "${{ steps.periodo.outputs.mes }}" --notify)
+          ARGS=(-v run ${{ steps.periodo.outputs.args }})
           if [ "${{ inputs.titles_only }}" = "true" ]; then ARGS+=(--titles-only); fi
-          python -m dofwatch.cli "${ARGS[@]}"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS+=(--dry-run)
+          else
+            ARGS+=(--notify)
+          fi
+          echo "python -m dofwatch.cli ${ARGS[*]}"
+          set -o pipefail
+          python -m dofwatch.cli "${ARGS[@]}" 2>&1 | tee /tmp/salida.txt
 
       - name: Publicar resumen en el job
+        if: always()
+        env:
+          MES: ${{ steps.periodo.outputs.mes }}
         run: |
           {
-            echo "## Digest ${{ steps.periodo.outputs.mes }}"
+            echo "## Digest ${{ steps.periodo.outputs.etiqueta }}"
             echo
-            head -c 60000 "digests/${{ steps.periodo.outputs.mes }}.md"
+            if [ -f "digests/${MES}.md" ] && [ "${{ inputs.dry_run }}" != "true" ]; then
+              head -c 60000 "digests/${MES}.md"
+            else
+              echo '```'
+              tail -c 20000 /tmp/salida.txt 2>/dev/null || echo "(sin salida)"
+              echo '```'
+            fi
           } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Guardar el digest como artefacto
+        if: ${{ !inputs.dry_run }}
         uses: actions/upload-artifact@v4
         with:
           name: digest-${{ steps.periodo.outputs.mes }}
@@ -93,6 +138,7 @@ jobs:
           if-no-files-found: error
 
       - name: Commit del digest y del historial
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -101,7 +147,7 @@ jobs:
             echo "Sin cambios que commitear"
             exit 0
           fi
-          git commit -m "digest: ${{ steps.periodo.outputs.mes }} (DOF y Gaceta Parlamentaria)"
+          git commit -m "digest: ${{ steps.periodo.outputs.etiqueta }} (DOF y Gaceta Parlamentaria)"
           for intento in 1 2 3 4; do
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && \
               git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
@@ -111,15 +157,16 @@ jobs:
           exit 1
 
       - name: Abrir issue con el digest
-        if: ${{ github.event_name == 'schedule' || inputs.create_issue }}
+        if: ${{ !inputs.dry_run && (github.event_name == 'schedule' || inputs.create_issue) }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MES: ${{ steps.periodo.outputs.mes }}
+          ETIQUETA: ${{ steps.periodo.outputs.etiqueta }}
         run: |
           gh label create digest --color 7B1E3A --description "Digest mensual" --force || true
           head -c 60000 "digests/${MES}.md" > /tmp/cuerpo.md
           printf '\n\n_Digest completo: `digests/%s.md`_\n' "$MES" >> /tmp/cuerpo.md
           gh issue create \
-            --title "Digest $MES — DOF y Gaceta Parlamentaria (vejez y envejecimiento)" \
+            --title "Digest $ETIQUETA — DOF y Gaceta Parlamentaria (vejez y envejecimiento)" \
             --body-file /tmp/cuerpo.md \
             --label digest

@@ -130,7 +130,8 @@ añadir una entrada en `gaceta.legislaturas`.
 
 `.github/workflows/digest-mensual.yml` corre el **día 1 de cada mes a las 09:00 de la
 Ciudad de México** (15:00 UTC) y, además, se puede lanzar a mano desde la pestaña
-Actions indicando el mes:
+Actions indicando el mes —o un rango `since`/`until` para una corrida acotada, y
+`dry_run` para probar sin escribir nada—:
 
 1. procesa el mes anterior completo;
 2. escribe `digests/AAAA-MM.{md,json,html}`;
