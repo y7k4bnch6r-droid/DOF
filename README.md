@@ -239,7 +239,7 @@ Las pruebas usan un cliente HTTP falso que sirve fixtures guardadas en
   listadas al final del digest y en la tabla `runs` de la base de datos.
 - Las rutas y el marcado están verificados contra los sitios reales desde un runner de
   GitHub Actions (agosto de 2026); las pruebas locales usan fixtures con esa misma
-  estructura. Una corrida real del 24 al 28 de agosto de 2026 revisó 243 publicaciones
-  (93 del DOF y 150 de la Gaceta), encontró 28 con menciones y no reportó incidencias.
+  estructura. Una corrida real del 24 al 28 de agosto de 2026 revisó 264 publicaciones
+  (114 del DOF y 150 de la Gaceta), encontró 29 con menciones y no reportó incidencias.
   Para repetir esa comprobación:
   `python -m dofwatch.cli -v run --since 2026-08-24 --until 2026-08-28 --dry-run`.
