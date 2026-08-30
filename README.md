@@ -18,8 +18,22 @@ fixtures de prueba, con datos ficticios).
 
 | Fuente | Qué se recorre | Ruta |
 | --- | --- | --- |
-| DOF | Todas las notas de cada día hábil (matutina, vespertina y extraordinarias) y su texto completo | Servicio JSON del DOF (`sidofqa.segob.gob.mx/dof/sidof/documentos/completo/DD-MM-AAAA` y `/notas/{codNota}`), con respaldo automático al HTML público `dof.gob.mx/index.php?year=…&month=…&day=…` |
-| Gaceta Parlamentaria | La página índice de cada día y sus anexos (`-I`, `-II`, …): iniciativas, dictámenes, proposiciones, comunicaciones | `gaceta.diputados.gob.mx/Gaceta/{legislatura}/{año}/{mes}/{AAAAMMDD}.html` |
+| DOF | Todas las notas de cada día hábil (matutina, vespertina y extraordinarias) y su texto completo | `dof.gob.mx/index.php?year=…&month=…&day=…` y `nota_detalle.php?codigo=…&fecha=…` (contenido en `#DivDetalleNota`) |
+| Gaceta Parlamentaria | Cada asunto del día —iniciativas, dictámenes, proposiciones, convocatorias— con su texto, más los anexos en PDF | `gaceta.diputados.gob.mx/Gaceta/{legislatura}/{año}/{mes}/{AAAAMMDD}.html` |
+
+Dos detalles verificados contra los sitios reales (agosto de 2026):
+
+- El **servicio JSON del DOF** (SIDOF, `sidofqa.segob.gob.mx/dof/sidof/…`) responde
+  `404 El Servicio que deseas consultar no existe`. Por eso la fuente primaria es el
+  HTML público y el servicio queda apagado con `dof.api_enabled: false`; si vuelve,
+  basta encenderlo.
+- Hay que usar **`dof.gob.mx` sin `www`**: el certificado sólo cubre el dominio
+  desnudo, así que `www.dof.gob.mx` falla la verificación TLS.
+- La Gaceta publica **todo el día en una sola página**: el índice (`div#Indice`, con
+  `a.Seccion` y `a.Indice`) enlaza por ancla al texto completo de cada asunto dentro
+  de `div#Contenido`. El monitor emite un documento por asunto —con enlace directo a
+  su ancla— y uno por anexo en PDF. Si algún día el formato no se reconoce, cae a un
+  barrido genérico de enlaces y al texto completo de la página.
 
 Para cada documento se normaliza el texto (minúsculas, sin acentos, espacios colapsados,
 guiones invisibles eliminados) y se buscan los patrones con frontera de palabra, de modo
@@ -183,6 +197,19 @@ data/             state.sqlite3 (historial y deduplicación)
 tests/            pruebas con fixtures locales (no tocan la red)
 ```
 
+## Diagnóstico cuando algo se rompe
+
+Los sitios cambian. Para saber qué se rompió sin adivinar:
+
+```bash
+python tools/sonda_fuentes.py --fecha 2026-08-28        # o varias, separadas por coma
+```
+
+Imprime qué responde cada ruta, qué certificado presenta cada host y cómo viene
+marcado el HTML (enlaces, ids, clases, el bloque de cada asunto). El workflow
+**Diagnóstico de fuentes** lo corre desde un runner de GitHub, que sí tiene salida a
+internet.
+
 ## Pruebas
 
 ```bash
@@ -207,8 +234,7 @@ Las pruebas usan un cliente HTTP falso que sirve fixtures guardadas en
 - La estructura de ambos sitios cambia de vez en cuando. El DOF tiene respaldo
   automático JSON → HTML; si alguna ruta deja de responder, las incidencias quedan
   listadas al final del digest y en la tabla `runs` de la base de datos.
-- **Los endpoints no pudieron probarse contra la red real desde el entorno donde se
-  desarrolló esto** (la política de egreso bloquea `dof.gob.mx`,
-  `sidofqa.segob.gob.mx` y `gaceta.diputados.gob.mx`). La primera corrida real conviene
-  hacerla acotada, por ejemplo:
-  `python -m dofwatch.cli -v run --since 2026-07-01 --until 2026-07-02`.
+- Las rutas y el marcado están verificados contra los sitios reales desde un runner de
+  GitHub Actions (agosto de 2026); las pruebas locales usan fixtures con esa misma
+  estructura. Para una corrida acotada de comprobación:
+  `python -m dofwatch.cli -v run --since 2026-08-24 --until 2026-08-28`.

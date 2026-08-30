@@ -48,6 +48,15 @@ def make_soup(html: str) -> BeautifulSoup:
         return BeautifulSoup(html, "html.parser")
 
 
+def tidy(texto: str) -> str:
+    """Normaliza el texto extraido: renglones limpios, sin lineas vacias de mas."""
+    texto = _WS.sub(" ", texto)
+    lineas = [ln.strip() for ln in texto.split("\n")]
+    texto = "\n".join(ln for ln in lineas if ln)
+    texto = _PUNTUACION_SUELTA.sub(r"\1", texto)
+    return _NL.sub("\n\n", texto).strip()
+
+
 def html_to_text(html: str) -> str:
     """Convierte HTML en texto plano legible, sin scripts ni estilos."""
     if not html:
@@ -55,12 +64,7 @@ def html_to_text(html: str) -> str:
     soup = make_soup(html)
     for tag in soup(["script", "style", "noscript"]):
         tag.decompose()
-    texto = soup.get_text("\n")
-    texto = _WS.sub(" ", texto)
-    lineas = [ln.strip() for ln in texto.split("\n")]
-    texto = "\n".join(ln for ln in lineas if ln)
-    texto = _PUNTUACION_SUELTA.sub(r"\1", texto)
-    return _NL.sub("\n\n", texto).strip()
+    return tidy(soup.get_text("\n"))
 
 
 def clean(texto: str | None) -> str:

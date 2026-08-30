@@ -56,7 +56,7 @@ def rodaja(html: str, patron: str, antes: int = 500, despues: int = 900) -> None
     print("    " + html[ini : m.end() + despues].replace("\n", "\n    ")[:2200])
 
 
-def sondear_dof(dia: date) -> None:
+def sondear_dof(dia: date, detalle: bool = True) -> None:
     titulo(f"DOF — índice del {dia}")
     url = f"https://dof.gob.mx/index.php?year={dia.year}&month={dia.month:02d}&day={dia.day:02d}"
     r = traer(url)
@@ -75,6 +75,12 @@ def sondear_dof(dia: date) -> None:
     clases = sorted({c for t in s.find_all(attrs={"class": True}) for c in t.get("class")})[:30]
     print(f"    ids: {ids}")
     print(f"    clases: {clases}")
+
+    variantes = sorted({a["href"] for a in s.select('a[href*="index.php"]')})[:12]
+    print(f"  variantes de index.php enlazadas: {variantes}")
+
+    if not detalle:
+        return
 
     print("  marcado alrededor del primer enlace:")
     rodaja(html, r'nota_detalle\.php')
@@ -128,13 +134,15 @@ def sondear_gaceta(dia: date, legislatura: int) -> None:
 
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--fecha", default="2026-08-28", help="día hábil a sondear (AAAA-MM-DD)")
+    p.add_argument("--fecha", default="2026-08-28",
+                   help="día hábil a sondear; admite varios separados por coma")
     p.add_argument("--legislatura", type=int, default=66)
     args = p.parse_args()
 
-    dia = date.fromisoformat(args.fecha)
-    sondear_dof(dia)
-    sondear_gaceta(dia, args.legislatura)
+    dias = [date.fromisoformat(f.strip()) for f in args.fecha.split(",") if f.strip()]
+    for i, dia in enumerate(dias):
+        sondear_dof(dia, detalle=(i == 0))
+    sondear_gaceta(dias[0], args.legislatura)
     return 0
 
 

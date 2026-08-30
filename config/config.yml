@@ -24,17 +24,21 @@ matching:
 
 dof:
   enabled: true
-  # Fuente primaria: servicio JSON del DOF (SIDOF). Si falla, se cae al HTML.
+  # El servicio JSON del DOF (SIDOF) responde 404 desde agosto de 2026
+  # ("El Servicio que deseas consultar no existe"), así que la fuente primaria
+  # es el HTML público. Si el servicio vuelve, basta con api_enabled: true.
+  api_enabled: false
   api_base: "https://sidofqa.segob.gob.mx/dof/sidof"
-  web_base: "https://www.dof.gob.mx"
+  # Sin "www": el certificado de dof.gob.mx sólo cubre el dominio desnudo.
+  web_base: "https://dof.gob.mx"
   full_text: true           # false = sólo títulos (mucho más rápido)
   skip_weekends: true       # el DOF no publica sábados ni domingos
   editions: [MAT, VES, EXT]
 
 gaceta:
   enabled: true
-  base: "http://gaceta.diputados.gob.mx"
-  full_text: true           # texto de la página índice del día
+  base: "https://gaceta.diputados.gob.mx"
+  full_text: true           # respaldo: texto completo de la página del día
   pdf_full_text: false      # además, descarga y extrae texto de los PDFs (lento)
   pdf_max_per_day: 40
   # Legislaturas: se elige por fecha de publicación.

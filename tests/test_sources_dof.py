@@ -7,6 +7,7 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 def _con_api(cfg, client):
+    cfg.data["dof"]["api_enabled"] = True
     base = cfg["dof"]["api_base"]
     client.add(f"{base}/documentos/completo/02-07-2026", FIXTURES / "dof_20260702.json")
     for cod in ("5712345", "5712346", "5712347", "5712399"):
@@ -25,7 +26,7 @@ def test_api_lista_notas_de_ambas_ediciones(cfg, fake_client):
 def test_api_arma_url_publica_y_metadatos(cfg, fake_client):
     src = _con_api(cfg, fake_client)
     doc = next(iter(src.iter_documents(date(2026, 7, 2), date(2026, 7, 2))))
-    assert doc.url == "https://www.dof.gob.mx/nota_detalle.php?codigo=5712345&fecha=02/07/2026"
+    assert doc.url == "https://dof.gob.mx/nota_detalle.php?codigo=5712345&fecha=02/07/2026"
     assert doc.organism == "SECRETARÍA DE BIENESTAR"
     assert doc.published == date(2026, 7, 2)
     assert doc.uid == "dof:5712345"

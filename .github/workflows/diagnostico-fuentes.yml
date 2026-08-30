@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       fecha:
-        description: "Día hábil a probar (AAAA-MM-DD)"
+        description: "Día(s) hábil(es) a probar, separados por coma (AAAA-MM-DD)"
         required: false
         default: "2026-08-28"
         type: string

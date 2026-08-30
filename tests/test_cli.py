@@ -39,34 +39,36 @@ def test_resolve_period_por_rango():
 
 @pytest.fixture
 def cliente_con_fixtures(monkeypatch):
+    """Escenario realista: DOF por su web pública y Gaceta con el índice del día."""
     client = FakeClient()
     client.add(
-        "https://sidofqa.segob.gob.mx/dof/sidof/documentos/completo/02-07-2026",
-        FIXTURES / "dof_20260702.json",
+        "https://dof.gob.mx/index.php?year=2026&month=07&day=03",
+        FIXTURES / "dof_index_20260703.html",
     )
-    for cod in ("5712345", "5712346", "5712347", "5712399"):
+    for cod in ("5712500", "5712501"):
         client.add(
-            f"https://sidofqa.segob.gob.mx/dof/sidof/notas/{cod}",
-            FIXTURES / f"dof_nota_{cod}.json",
+            f"https://dof.gob.mx/nota_detalle.php?codigo={cod}&fecha=03/07/2026",
+            FIXTURES / f"dof_nota_detalle_{cod}.html",
         )
     client.add(
-        "http://gaceta.diputados.gob.mx/Gaceta/66/2026/jul/20260702.html",
-        FIXTURES / "gaceta_20260702.html",
+        "https://gaceta.diputados.gob.mx/Gaceta/66/2026/ago/20260828.html",
+        FIXTURES / "gaceta_20260828.html",
     )
     monkeypatch.setattr(cli, "client_from_config", lambda cfg: client)
     return client
 
 
+PERIODO = ["--since", "2026-07-03", "--until", "2026-08-28"]
+
+
 def test_run_escribe_digest_y_base(project, cliente_con_fixtures, capsys):
-    codigo = cli.main(
-        ["--root", str(project), "run", "--since", "2026-07-02", "--until", "2026-07-02"]
-    )
+    codigo = cli.main(["--root", str(project), "run", *PERIODO])
     assert codigo == 0
     salida = capsys.readouterr().out
     assert "con menciones" in salida
 
     md = (project / "digests" / "2026-07.md").read_text(encoding="utf-8")
-    assert "Pensión para el Bienestar" in md
+    assert "Asistencia social a personas adultas mayores" in md
     assert (project / "digests" / "latest.md").exists()
     assert (project / "data" / "state.sqlite3").exists()
 
@@ -75,18 +77,13 @@ def test_run_escribe_digest_y_base(project, cliente_con_fixtures, capsys):
 
 
 def test_run_dry_run_no_escribe_nada(project, cliente_con_fixtures):
-    cli.main(
-        [
-            "--root", str(project), "run",
-            "--since", "2026-07-02", "--until", "2026-07-02", "--dry-run",
-        ]
-    )
+    cli.main(["--root", str(project), "run", *PERIODO, "--dry-run"])
     assert not (project / "digests").exists()
     assert not (project / "data" / "state.sqlite3").exists()
 
 
 def test_run_marca_nuevos_solo_la_primera_vez(project, cliente_con_fixtures):
-    args = ["--root", str(project), "run", "--since", "2026-07-02", "--until", "2026-07-02"]
+    args = ["--root", str(project), "run", *PERIODO]
     cli.main(args)
     primera = (project / "digests" / "2026-07.md").read_text(encoding="utf-8")
     cli.main(args)
@@ -95,14 +92,14 @@ def test_run_marca_nuevos_solo_la_primera_vez(project, cliente_con_fixtures):
 
 
 def test_digest_regenera_desde_la_base(project, cliente_con_fixtures):
-    cli.main(["--root", str(project), "run", "--since", "2026-07-02", "--until", "2026-07-02"])
+    cli.main(["--root", str(project), "run", *PERIODO])
     (project / "digests" / "2026-07.md").unlink()
     cli.main(["--root", str(project), "digest", "--month", "2026-07", "--formats", "md"])
-    assert "Pensión para el Bienestar" in (project / "digests" / "2026-07.md").read_text("utf-8")
+    assert "personas adultas mayores" in (project / "digests" / "2026-07.md").read_text("utf-8")
 
 
 def test_history_lista_corridas(project, cliente_con_fixtures, capsys):
-    cli.main(["--root", str(project), "run", "--since", "2026-07-02", "--until", "2026-07-02"])
+    cli.main(["--root", str(project), "run", *PERIODO])
     cli.main(["--root", str(project), "history"])
     assert "hallazgos=" in capsys.readouterr().out
 
@@ -136,9 +133,7 @@ def test_run_no_sobrescribe_digest_si_todo_falla(project, monkeypatch):
     previo = project / "digests" / "2026-07.md"
     previo.write_text("digest anterior", encoding="utf-8")
 
-    codigo = cli.main(
-        ["--root", str(project), "run", "--since", "2026-07-02", "--until", "2026-07-02"]
-    )
+    codigo = cli.main(["--root", str(project), "run", *PERIODO])
     assert codigo == 2
     assert previo.read_text(encoding="utf-8") == "digest anterior"
 
@@ -152,11 +147,6 @@ def test_run_con_allow_empty_escribe_digest_vacio(project, monkeypatch):
             raise FetchError(f"sin red: {url}")
 
     monkeypatch.setattr(cli, "client_from_config", lambda cfg: ClienteCaido())
-    codigo = cli.main(
-        [
-            "--root", str(project), "run",
-            "--since", "2026-07-02", "--until", "2026-07-02", "--allow-empty",
-        ]
-    )
+    codigo = cli.main(["--root", str(project), "run", *PERIODO, "--allow-empty"])
     assert codigo == 0
     assert "Sin menciones en el periodo." in (project / "digests" / "2026-07.md").read_text("utf-8")

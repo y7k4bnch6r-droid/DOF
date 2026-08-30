@@ -63,6 +63,8 @@ class DofSource(Source):
 
     def _fetch_day_api(self, day: date) -> list[dict] | None:
         """Lista de notas del dia via JSON, o None si el servicio no sirve."""
+        if not self.conf.get("api_enabled", False):
+            return None
         try:
             data = self.client.get_json(self._api_day_url(day))
         except FetchError as exc:

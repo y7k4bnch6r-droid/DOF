@@ -31,15 +31,16 @@ DEFAULTS: dict[str, Any] = {
     "matching": {"snippet_chars": 140, "max_snippets": 3, "min_score": 1},
     "dof": {
         "enabled": True,
+        "api_enabled": False,
         "api_base": "https://sidofqa.segob.gob.mx/dof/sidof",
-        "web_base": "https://www.dof.gob.mx",
+        "web_base": "https://dof.gob.mx",
         "full_text": True,
         "skip_weekends": True,
         "editions": ["MAT", "VES", "EXT"],
     },
     "gaceta": {
         "enabled": True,
-        "base": "http://gaceta.diputados.gob.mx",
+        "base": "https://gaceta.diputados.gob.mx",
         "full_text": True,
         "pdf_full_text": False,
         "pdf_max_per_day": 40,
