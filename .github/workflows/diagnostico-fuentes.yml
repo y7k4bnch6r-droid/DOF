@@ -1,0 +1,86 @@
+name: Diagnóstico de fuentes
+
+# Comprueba desde un runner con salida a internet que las rutas del DOF y de la
+# Gaceta siguen vivas, y con qué host/certificado responden. Útil cuando el
+# digest sale vacío o con incidencias: dice exactamente qué ruta se rompió.
+
+on:
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Día hábil a probar (AAAA-MM-DD)"
+        required: false
+        default: "2026-08-28"
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  sondear:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Probar rutas
+        env:
+          FECHA: ${{ inputs.fecha || '2026-08-28' }}
+        run: |
+          set -u
+          D=$(date -u -d "$FECHA" +%d-%m-%Y)   # 28-08-2026
+          Y=$(date -u -d "$FECHA" +%Y); M=$(date -u -d "$FECHA" +%m); DD=$(date -u -d "$FECHA" +%d)
+          COMPACTA=$(date -u -d "$FECHA" +%Y%m%d)
+
+          probe () {  # probe <url> [curl-extra...]
+            local url="$1"; shift
+            local out; out=/tmp/body.$$
+            local info
+            info=$(curl -sS -L --max-time 25 -o "$out" \
+                   -w '%{http_code} %{size_download}B %{content_type} -> %{url_effective}' \
+                   -A 'dofwatch-diagnostico/1.0' "$@" "$url" 2>/tmp/err.$$) \
+              || info="ERROR: $(head -c 300 /tmp/err.$$)"
+            printf '\n=== %s\n    %s\n' "$url" "$info"
+            head -c 400 "$out" 2>/dev/null | tr -d '\r' | sed 's/^/    | /'
+            echo
+          }
+
+          echo "###############  DOF — servicio JSON (SIDOF)"
+          probe "https://sidofqa.segob.gob.mx/dof/sidof/documentos/completo/$D"
+          probe "https://sidofqa.segob.gob.mx/dof/sidof/documentos/completo/$FECHA"
+          probe "https://sidofqa.segob.gob.mx/dof/sidof/documentos/todos/$D"
+          probe "https://sidof.segob.gob.mx/dof/sidof/documentos/completo/$D"
+          probe "https://sidofqa.segob.gob.mx/dof/sidof/"
+
+          echo "###############  DOF — web pública"
+          probe "https://www.dof.gob.mx/index.php?year=$Y&month=$M&day=$DD"
+          probe "https://www.dof.gob.mx/index.php?year=$Y&month=$M&day=$DD" -k
+          probe "https://dof.gob.mx/index.php?year=$Y&month=$M&day=$DD"
+          probe "http://www.dof.gob.mx/index.php?year=$Y&month=$M&day=$DD"
+          probe "https://diariooficial.gob.mx/index.php?year=$Y&month=$M&day=$DD"
+
+          echo "###############  DOF — certificados presentados"
+          for h in www.dof.gob.mx dof.gob.mx sidofqa.segob.gob.mx; do
+            echo "--- $h"
+            echo | timeout 20 openssl s_client -connect "$h":443 -servername "$h" 2>/dev/null \
+              | openssl x509 -noout -subject -issuer -ext subjectAltName 2>/dev/null \
+              | head -c 800
+            echo
+          done
+
+          echo "###############  Gaceta Parlamentaria"
+          case "$M" in
+            01) MES_ES=ene;; 02) MES_ES=feb;; 03) MES_ES=mar;; 04) MES_ES=abr;;
+            05) MES_ES=may;; 06) MES_ES=jun;; 07) MES_ES=jul;; 08) MES_ES=ago;;
+            09) MES_ES=sep;; 10) MES_ES=oct;; 11) MES_ES=nov;; 12) MES_ES=dic;;
+          esac
+          URL="http://gaceta.diputados.gob.mx/Gaceta/66/$Y/$MES_ES/$COMPACTA.html"
+          probe "$URL"
+          probe "https://gaceta.diputados.gob.mx/Gaceta/66/$Y/$MES_ES/$COMPACTA.html"
+          probe "http://gaceta.diputados.gob.mx/Gaceta/66/$Y/$MES_ES/$COMPACTA-I.html"
+
+          echo "--- estructura de $URL"
+          curl -sS -L --max-time 25 -A 'dofwatch-diagnostico/1.0' "$URL" -o /tmp/gaceta.html || true
+          wc -c /tmp/gaceta.html
+          echo "total de anclas: $(grep -o -i 'href=' /tmp/gaceta.html | wc -l)"
+          grep -o -i 'href="[^"]*"' /tmp/gaceta.html | head -30
+          echo "--- muestra del HTML"
+          sed -n '1,60p' /tmp/gaceta.html | cut -c1-200
