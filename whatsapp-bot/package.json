@@ -1,0 +1,19 @@
+{
+  "name": "bot-whatsapp-consultorio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Respuestas automáticas de WhatsApp (Meta Cloud API) para el consultorio, en Google Cloud Functions",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "functions-framework --target=botGeriatria --port=8080"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^9.0.1",
+    "@google-cloud/functions-framework": "^5.0.5",
+    "axios": "^1.20.0"
+  }
+}
