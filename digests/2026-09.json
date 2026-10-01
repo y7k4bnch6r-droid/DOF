@@ -1,0 +1,2003 @@
+{
+  "generado": "2026-10-01T20:07:46+00:00",
+  "periodo": {
+    "inicio": "2026-09-01",
+    "fin": "2026-09-30"
+  },
+  "terminos": [
+    {
+      "id": "personas_mayores",
+      "label": "Personas mayores",
+      "patterns": [
+        "personas mayores",
+        "persona mayor",
+        "personas adultas mayores",
+        "persona adulta mayor",
+        "adultos mayores",
+        "adulto mayor",
+        "adultas mayores",
+        "adulta mayor"
+      ]
+    },
+    {
+      "id": "vejez",
+      "label": "Vejez",
+      "patterns": [
+        "vejez",
+        "vejeces"
+      ]
+    },
+    {
+      "id": "envejecimiento",
+      "label": "Envejecimiento",
+      "patterns": [
+        "envejec*"
+      ]
+    }
+  ],
+  "resumen": {
+    "por_fuente": {
+      "dof": {
+        "label": "Diario Oficial de la Federación",
+        "hallazgos": 44,
+        "nuevos": 44,
+        "revisados": 390
+      },
+      "gaceta": {
+        "label": "Gaceta Parlamentaria (Cámara de Diputados)",
+        "hallazgos": 14,
+        "nuevos": 14,
+        "revisados": 615
+      }
+    },
+    "por_termino": {
+      "personas_mayores": {
+        "dof": 41,
+        "total": 55,
+        "gaceta": 14
+      },
+      "envejecimiento": {
+        "dof": 21,
+        "total": 21
+      },
+      "vejez": {
+        "dof": 1,
+        "total": 1
+      }
+    },
+    "etiquetas_termino": {
+      "personas_mayores": "Personas mayores",
+      "envejecimiento": "Envejecimiento",
+      "vejez": "Vejez"
+    },
+    "destacados": [
+      "dof:5797568",
+      "dof:5797567",
+      "dof:5797712",
+      "dof:5797713",
+      "dof:5797814"
+    ],
+    "total": 58,
+    "nuevos": 58,
+    "revisados": 1005
+  },
+  "documentos": [
+    {
+      "uid": "dof:5797568",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797568",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y la Ciudad de México.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797568&fecha=01/09/2026",
+      "published": "2026-09-01",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 16,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…ortunidad de envio bimensual por la Entidad Federativa. Mide las acciones vinculadas intersectoriales e interinstitucionales dirigidas a la persona mayor en la entidad federativa a través de la evaluación generada por minuta con seguimiento de los acuerdos y compromisos 90.00 90.00 8 Programa d…",
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 13,
+          "snippets": [
+            "…000.00 0.00 96,000.00 7 Enfermedades Cardiometabólicas P028 19,870,192.00 0.00 19,870,192.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 4,144,560.00 0.00 4,144,560.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…s 96,000.00 0.00 96,000.00 7 Enfermedades Cardiometabólicas 19,870,192.00 0.00 19,870,192.00 8 Programa de Acción Específico en Atención al Envejecimiento 4,144,560.00 0.00 4,144,560.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…ermedades Cardiometabólicas 19,870,192.00 Total Enfermedades Cardiometabólicas 19,870,192.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 4,144,560.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797567",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797567",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Chihuahua.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797567&fecha=01/09/2026",
+      "published": "2026-09-01",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…,814.01 0.00 211,814.01 7 Enfermedades Cardiometabólicas P028 7,121,200.00 0.00 7,121,200.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,729,072.50 0.00 2,729,072.50 9 Prevención, Detección y Control de las Enfermedades Bucales P028 940,147.94 0.00 940,147.94 10 Prevenc…",
+            "…s 211,814.01 0.00 211,814.01 7 Enfermedades Cardiometabólicas 7,121,200.00 0.00 7,121,200.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,729,072.50 0.00 2,729,072.50 9 Prevención, Detección y Control de las Enfermedades Bucales 940,147.94 0.00 940,147.94 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 7,121,200.00 Total Enfermedades Cardiometabólicas 7,121,200.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,729,072.50 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797570",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797570",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Tamaulipas.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797570&fecha=01/09/2026",
+      "published": "2026-09-01",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797578",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797578",
+      "title": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 59/2025, así como los Votos Particular de la señora Ministra María Estela Ríos González y Concurrente del señor Ministro Irving Espinosa Betanzo.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797578&fecha=01/09/2026",
+      "published": "2026-09-01",
+      "section": "Edición matutina",
+      "organism": "PODER JUDICIAL",
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…a personal y ajustes derivados de las necesidades particulares de cada participante. Aunado a ello, se establece que solo podrán postularse personas mayores de dieciocho años, lo que implica la exclusión de niñas, niños y adolescentes con discapacidad del proceso participativo. 112. En ese mismo s…",
+            "…blecer un trato desigual resulta objetivo y razonable pues las personas menores de edad, no se encuentran en las mismas condiciones que las personas mayores de edad. Considera que dicha exclusión responde y atiende a las necesidades propias de la edad pues, en su opinión, el Parlamento Infantil d…",
+            "…s. (58) 135. En otras palabras, la distinción normativa se justifica en que las necesidades de las y los menores de edad y de los adultos y adultos mayores, atendiendo justamente a la edad, son distintas y atenderlas todas en un mismo ejercicio parlamentario podría aumentar las barreras a la ple…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797712",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797712",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Coahuila de Zaragoza.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797712&fecha=02/09/2026",
+      "published": "2026-09-02",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…0,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas P028 6,068,128.00 0.00 6,068,128.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,230,832.00 0.00 2,230,832.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 276,781.00 0.00 276,781.00 10 Prevenc…",
+            "…cas 70,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas 6,068,128.00 0.00 6,068,128.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,230,832.00 0.00 2,230,832.00 9 Prevención, Detección y Control de las Enfermedades Bucales 276,781.00 0.00 276,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 6,068,128.00 Total Enfermedades Cardiometabólicas 6,068,128.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,230,832.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797713",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797713",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Colima.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797713&fecha=02/09/2026",
+      "published": "2026-09-02",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…4,936.80 0.00 64,936.80 7 Enfermedades Cardiometabólicas P028 3,826,136.00 0.00 3,826,136.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,390,416.00 0.00 1,390,416.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…cas 64,936.80 0.00 64,936.80 7 Enfermedades Cardiometabólicas 3,826,136.00 0.00 3,826,136.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,390,416.00 0.00 1,390,416.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 3,826,136.00 Total Enfermedades Cardiometabólicas 3,826,136.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,390,416.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797716",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797716",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Colima.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797716&fecha=02/09/2026",
+      "published": "2026-09-02",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797717",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797717",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Morelos.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797717&fecha=02/09/2026",
+      "published": "2026-09-02",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797700",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797700",
+      "title": "Modificaciones y adiciones a las Disposiciones de carácter general que establecen el procedimiento para la construcción de los indicadores de rendimiento neto de las sociedades de inversión especializadas de fondos para el retiro.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797700&fecha=02/09/2026",
+      "published": "2026-09-02",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "vejez",
+          "term_label": "Vejez",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…éste podría obtener de conformidad con el esquema de retiros programados o de acuerdo a los seguros de retiro, cesantía en edad avanzada y vejez establecidos en la Ley del Seguro Social y, en la Ley del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado, o que p…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797814",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797814",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Durango.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797814&fecha=03/09/2026",
+      "published": "2026-09-03",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…0,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas P028 5,567,120.00 0.00 5,567,120.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,390,416.00 0.00 1,390,416.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 940,147.94 0.00 940,147.94 10 Prevenc…",
+            "…cas 70,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas 5,567,120.00 0.00 5,567,120.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,390,416.00 0.00 1,390,416.00 9 Prevención, Detección y Control de las Enfermedades Bucales 940,147.94 0.00 940,147.94 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 5,567,120.00 Total Enfermedades Cardiometabólicas 5,567,120.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,390,416.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797815",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797815",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Guerrero.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797815&fecha=03/09/2026",
+      "published": "2026-09-03",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…0,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas P028 7,991,830.00 0.00 7,991,830.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,859,198.50 0.00 2,859,198.50 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…cas 70,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas 7,991,830.00 0.00 7,991,830.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,859,198.50 0.00 2,859,198.50 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 7,991,830.00 Total Enfermedades Cardiometabólicas 7,991,830.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,859,198.50 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797818",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797818",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Quintana Roo.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797818&fecha=03/09/2026",
+      "published": "2026-09-03",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797819",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797819",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de San Luis Potosí.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797819&fecha=03/09/2026",
+      "published": "2026-09-03",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797826",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797826",
+      "title": "Lineamientos para la Implementación del Modelo Nacional de Atención Ciudadana.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797826&fecha=03/09/2026",
+      "published": "2026-09-03",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…ria, en el menor tiempo posible, a personas pertenecientes a grupos de atención prioritaria, entre ellas: I. Personas con discapacidad; II. Adultas mayores; III. Mujeres embarazadas; IV. Menores de edad, o V. Los demás grupos de atención prioritaria previstos en las disposiciones aplicables en m…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797951",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797951",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Hidalgo.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797951&fecha=04/09/2026",
+      "published": "2026-09-04",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…6,313.72 0.00 66,313.72 7 Enfermedades Cardiometabólicas P028 9,031,420.00 0.00 9,031,420.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,917,170.00 0.00 2,917,170.00 10 Prevención y Control de Enfermedades Diarreicas Agudas P028 394,763.63 0.00 394,763.63 S u b t o t a l…",
+            "…cas 66,313.72 0.00 66,313.72 7 Enfermedades Cardiometabólicas 9,031,420.00 0.00 9,031,420.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,917,170.00 0.00 2,917,170.00 10 Prevención y Control de Enfermedades Diarreicas Agudas 394,763.63 0.00 394,763.63 S u b t o t a l 14,177,5…",
+            "…nfermedades Cardiometabólicas 9,031,420.00 Total Enfermedades Cardiometabólicas 9,031,420.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,917,170.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797952",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797952",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Jalisco.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797952&fecha=04/09/2026",
+      "published": "2026-09-04",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…,749.20 0.00 263,749.20 7 Enfermedades Cardiometabólicas P028 7,932,864.00 0.00 7,932,864.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 3,125,267.50 0.00 3,125,267.50 10 Prevención y Control de Enfermedades Diarreicas Agudas P028 445,462.22 0.00 445,462.22 S u b t o t a l…",
+            "…s 263,749.20 0.00 263,749.20 7 Enfermedades Cardiometabólicas 7,932,864.00 0.00 7,932,864.00 8 Programa de Acción Específico en Atención al Envejecimiento 3,125,267.50 0.00 3,125,267.50 10 Prevención y Control de Enfermedades Diarreicas Agudas 445,462.22 0.00 445,462.22 S u b t o t a l 14,452,5…",
+            "…nfermedades Cardiometabólicas 7,932,864.00 Total Enfermedades Cardiometabólicas 7,932,864.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 3,125,267.50 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260904.html#Acta1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260904.html#Acta1",
+      "title": "De la Comisión de Atención a Grupos Vulnerables, correspondiente a la decimosexta reunión ordinaria, efectuada el martes 25 de agosto de 2026",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260904.html#Acta1",
+      "published": "2026-09-04",
+      "section": "Actas",
+      "organism": null,
+      "score": 10,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 16,
+          "snippets": [
+            "…bienvenida a la maestra Rocío Ruiz López, directora de Fortalecimiento y Operación de las Políticas Públicas del Instituto Nacional de las Personas Adultas Mayores (Inapam), a quien agradeció su presencia y disposición para compartir con las y los integrantes de la Comisión información relacionada con e…",
+            "…ión para compartir con las y los integrantes de la Comisión información relacionada con el trabajo que realiza el Instituto en favor de las personas adultas mayores. La maestra Rocío Ruiz López agradeció la invitación y realizó una exposición sobre el marco jurídico que rige las actividades del Inapam, d…",
+            "…co jurídico que rige las actividades del Inapam, destacando la Convención Interamericana sobre la Protección de los Derechos Humanos de las Personas Mayores y la Ley de los Derechos de las Personas Adultas Mayores. Señaló que la Convención Interamericana fue adoptada en Washington en 2015, aproba…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7119",
+        "ancla": "Acta1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5797943",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5797943",
+      "title": "Resolución final del procedimiento administrativo de investigación antidumping sobre las importaciones de perfiles y barras de aluminio originarias de la República Popular China, independientemente del país de procedencia.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5797943&fecha=04/09/2026",
+      "published": "2026-09-04",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 4,
+      "matches": [
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…la forma deseada. 11. Adicionalmente, después de salir de la matriz, la extrusión se enfría y puede ser estirada, cortada o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. También pueden someterse a un acabado o procesamiento adicional, como revestimiento o t…",
+            "…eada. 269. Adicionalmente, después de salir de la matriz, la extrusión de billets se enfría y puede ser estirada, cortada, o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. También pueden someterse a un acabado o procesamiento adicional, como revestimiento o t…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260904.html#Acta7",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260904.html#Acta7",
+      "title": "De la Comisión de Turismo, referente a la decimonovena reunión ordinaria, llevada a cabo el martes 21 de julio de 2026",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260904.html#Acta7",
+      "published": "2026-09-04",
+      "section": "Actas",
+      "organism": null,
+      "score": 4,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…muy importante ya considerar en la Ley General de Turismo a las personas con espectro autista, tanto a niñas, niños, adolescentes, así como adultos mayores. La diputada Noemí Luna, señaló que su iniciativa fue para apoyar a Zacatecas, y a todas las personas del país que tienen alguna discapacida…",
+            "…ogrará impulsar la accesibilidad universal, para brindar condiciones más seguras y adecuadas a las personas con alguna discapacidad y a las personas adultas mayores. La diputada Tania Palacios Kuri expresó que el dictamen se debe considerar una acción afirmativa, dado que se actuó en coordinación con dep…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7119",
+        "ancla": "Acta7"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798041",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798041",
+      "title": "Resolución final del procedimiento administrativo de investigación antidumping sobre las importaciones de perfiles huecos de aluminio originarias de los Estados Unidos de América y la República Popular China, independientemente del país de procedencia.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798041&fecha=04/09/2026",
+      "published": "2026-09-04",
+      "section": "Edición vespertina",
+      "organism": "PODER EJECUTIVO",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…eseada. 11. Después de salir de la matriz, la extrusión de billets o palanquillas se enfría y puede ser estirada, cortada, o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. Asimismo, pueden someterse a un acabado o procesamiento adicional, como revestimiento o…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798069",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798069",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Michoacán.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798069&fecha=07/09/2026",
+      "published": "2026-09-07",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…7 104,948.37 552,921.04 7 Enfermedades Cardiometabólicas P028 7,401,560.00 0.00 7,401,560.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,230,832.00 0.00 2,230,832.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…972.67 104,948.37 552,921.04 7 Enfermedades Cardiometabólicas 7,401,560.00 0.00 7,401,560.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,230,832.00 0.00 2,230,832.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 7,401,560.00 Total Enfermedades Cardiometabólicas 7,401,560.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,230,832.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798070",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798070",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Nayarit.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798070&fecha=07/09/2026",
+      "published": "2026-09-07",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…82 78,770.72 548,204.54 7 Enfermedades Cardiometabólicas P028 4,587,816.00 0.00 4,587,816.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,180,312.00 0.00 1,180,312.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…,433.82 78,770.72 548,204.54 7 Enfermedades Cardiometabólicas 4,587,816.00 0.00 4,587,816.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,180,312.00 0.00 1,180,312.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 4,587,816.00 Total Enfermedades Cardiometabólicas 4,587,816.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,180,312.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798073",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798073",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Coahuila y el Municipio de Acuña.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798073&fecha=07/09/2026",
+      "published": "2026-09-07",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798074",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798074",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de México y el Municipio de Tepetlaoxtoc.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798074&fecha=07/09/2026",
+      "published": "2026-09-07",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798121",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798121",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Nuevo León.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798121&fecha=08/09/2026",
+      "published": "2026-09-08",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…6,376.00 0.00 56,376.00 7 Enfermedades Cardiometabólicas P028 9,898,232.00 0.00 9,898,232.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,600,520.00 0.00 1,600,520.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 271,480.95 0.00 271,480.95 10 Prevenc…",
+            "…cas 56,376.00 0.00 56,376.00 7 Enfermedades Cardiometabólicas 9,898,232.00 0.00 9,898,232.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,600,520.00 0.00 1,600,520.00 9 Prevención, Detección y Control de las Enfermedades Bucales 271,480.95 0.00 271,480.95 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 9,898,232.00 Total Enfermedades Cardiometabólicas 9,898,232.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,600,520.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260908.html#ProyectodeActa1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260908.html#ProyectodeActa1",
+      "title": "De la sesión en modalidad semipresencial de la Cámara de Diputados del Congreso de la Unión celebrada el miércoles 2 de septiembre de 2026, correspondiente al primer periodo de sesiones ordinarias del tercer año de ejercicio de la LXVI Legislatura",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260908.html#ProyectodeActa1",
+      "published": "2026-09-08",
+      "section": "Proyecto de Acta",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…al, que adiciona un artículo trescientos ochenta y seis Bis al Código Penal Federal, en materia de delito de fraude digital cometido contra adultos mayores. Se turna a la Comisión de Justicia para dictamen. - Patricia Mercado Castro, de Movimiento Ciudadano, que reforma y adiciona diversas dispo…",
+            "…Recursos Naturales, para dictamen. - Bruno Blancas Mercado, de Morena, que reforma diversas disposiciones de la Ley de los Derechos de las Personas Adultas Mayores; y del Código Civil Federal, en materia de protección patrimonial del adulto mayor. Se turna a las Comisiones Unidas de Atención a Grupos Vu…",
+            "…sposiciones de la Ley de los Derechos de las Personas Adultas Mayores; y del Código Civil Federal, en materia de protección patrimonial del adulto mayor. Se turna a las Comisiones Unidas de Atención a Grupos Vulnerables; y de Justicia para dictamen. - María Lorena García Jimeno Alcocer, del P…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7121",
+        "ancla": "ProyectodeActa1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798123",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798123",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de México y el Municipio de Tultepec.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798123&fecha=08/09/2026",
+      "published": "2026-09-08",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798124",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798124",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Oaxaca y el Municipio de San Pedro Comitancillo.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798124&fecha=08/09/2026",
+      "published": "2026-09-08",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798270",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798270",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tlaxcala.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798270&fecha=09/09/2026",
+      "published": "2026-09-09",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…6,708.04 0.00 96,708.04 7 Enfermedades Cardiometabólicas P028 6,886,576.00 0.00 6,886,576.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,216,331.50 0.00 1,216,331.50 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…cas 96,708.04 0.00 96,708.04 7 Enfermedades Cardiometabólicas 6,886,576.00 0.00 6,886,576.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,216,331.50 0.00 1,216,331.50 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 6,886,576.00 Total Enfermedades Cardiometabólicas 6,886,576.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,216,331.50 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798271",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798271",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Zacatecas.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798271&fecha=09/09/2026",
+      "published": "2026-09-09",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…,827.36 0.00 214,827.36 7 Enfermedades Cardiometabólicas P028 6,829,184.00 0.00 6,829,184.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 2,010,728.00 0.00 2,010,728.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…s 214,827.36 0.00 214,827.36 7 Enfermedades Cardiometabólicas 6,829,184.00 0.00 6,829,184.00 8 Programa de Acción Específico en Atención al Envejecimiento 2,010,728.00 0.00 2,010,728.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 6,829,184.00 Total Enfermedades Cardiometabólicas 6,829,184.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 2,010,728.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798268",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798268",
+      "title": "Programa Institucional de Educal, S.A. de C.V. 2026-2030.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798268&fecha=09/09/2026",
+      "published": "2026-09-09",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 10,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 8,
+          "snippets": [
+            "…ieron 2,901,201 personas, y se proyecta cerrar 2026 con 2,550,000 personas atendidas, frente a una población potencial de 115.2 millones de personas mayores de seis años en nuestro país. Estas cifras reflejan la amplitud y relevancia de la acción institucional de Educal como instrumento de inclus…",
+            "…, cultural y económico del país: · Débil formación lectora en amplios sectores de la población, especialmente entre infancias, juventudes y adultos mayores. · Limitado desarrollo de habilidades de comprensión, análisis y pensamiento crítico, que incide en los niveles de aprendizaje escolar. · Re…",
+            "…s; de género, por la baja participación de autoras y promotoras culturales; de edad, por la débil oferta dirigida a infancias, juventudes y personas adultas mayores; y de discapacidad, por la escasa producción de materiales en Braille, audiolibros o formatos accesibles. En congruencia con los principios d…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798369",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798369",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano y el Estado de Sonora.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798369&fecha=10/09/2026",
+      "published": "2026-09-10",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798370",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798370",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Veracruz de Ignacio de la Llave y el Municipio de Minatitlán.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798370&fecha=10/09/2026",
+      "published": "2026-09-10",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798769",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798769",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Tabasco y el Municipio de Centla (CCE/DGIE/004/2026).",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798769&fecha=14/09/2026",
+      "published": "2026-09-14",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798812",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798812",
+      "title": "Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Puebla y el Comité Administrador Poblano para la Construcción de Espacios Educativos.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798812&fecha=15/09/2026",
+      "published": "2026-09-15",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260915.html#Prevencion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260915.html#Prevencion1",
+      "title": "De la Mesa Directiva",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260915.html#Prevencion1",
+      "published": "2026-09-15",
+      "section": "Prevenciones",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…. Iniciativa con proyecto de decreto por el que se adiciona un inciso c) a la fracción IV del artículo 5o. de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por el diputado César Alejandro Domínguez Domínguez, PRI. Comisión de Atención a Grupos Vulnerables. Expediente 8557. Tercera se…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7127",
+        "ancla": "Prevencion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5798904",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5798904",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Coahuila de Zaragoza.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5798904&fecha=17/09/2026",
+      "published": "2026-09-17",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260917.html#Prevencion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260917.html#Prevencion1",
+      "title": "De la Mesa Directiva",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260917.html#Prevencion1",
+      "published": "2026-09-17",
+      "section": "Prevenciones",
+      "organism": null,
+      "score": 4,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…uinta sección. 13. Iniciativa con proyecto de decreto por el que se reforma la fracción I del artículo 6o. de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Leticia Farfán Vázquez, Morena. Comisión de Atención a Grupos Vulnerables. Expediente 8596. Séptima sección. 14.…",
+            "…ediente 8599. Tercera sección. 16. Iniciativa con proyecto de decreto por el que se reforma el artículo 20 de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Rosa Guadalupe Ortega Tiburcio, Morena. Comisión de Atención a Grupos Vulnerables. Expediente 8601. Quinta secci…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7128",
+        "ancla": "Prevencion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799049",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799049",
+      "title": "Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Chiapas.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799049&fecha=18/09/2026",
+      "published": "2026-09-18",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 6,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 3,
+          "snippets": [
+            "…z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…",
+            "…lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…",
+            "…Reglas. P) Planear, organizar y dar seguimiento a la operación de evaluación de habilidades y capacidades de personas con discapacidad y/o adultas mayores, y en su caso, la vinculación laboral de éstas, así como vigilar e informar periódicamente los resultados de su funcionamiento. Q) Impulsar e…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799137",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799137",
+      "title": "Convenio de Coordinación que celebran la Secretaría de Gobernación y la Secretaría de Bienestar del Gobierno del Estado de México, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre las personas usuarias de Bienestar Edomex.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799137&fecha=21/09/2026",
+      "published": "2026-09-21",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…prioritaria e inmediata, que muestren mayor pobreza, marginación y exclusión; a la población indígena, mujeres, niñas, niños, adolescentes, adultos mayores, familias de los migrantes, personas con discapacidad, población en situación de calle, o que se encuentren en situación de vulnerabilidad s…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799249",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799249",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Baja California Sur.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799249&fecha=22/09/2026",
+      "published": "2026-09-22",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…0,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas P028 7,319,516.00 0.00 7,319,516.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,509,944.00 0.00 1,509,944.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 247,608.00 0.00 247,608.00 10 Prevenc…",
+            "…cas 70,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas 7,319,516.00 0.00 7,319,516.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,509,944.00 0.00 1,509,944.00 9 Prevención, Detección y Control de las Enfermedades Bucales 247,608.00 0.00 247,608.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 7,319,516.00 Total Enfermedades Cardiometabólicas 7,319,516.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,509,944.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799364",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799364",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de México.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799364&fecha=23/09/2026",
+      "published": "2026-09-23",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…564.00 0.00 84,564.00 7 Enfermedades Cardiometabólicas P028 16,595,896.00 0.00 16,595,896.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 4,303,852.50 0.00 4,303,852.50 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…s 84,564.00 0.00 84,564.00 7 Enfermedades Cardiometabólicas 16,595,896.00 0.00 16,595,896.00 8 Programa de Acción Específico en Atención al Envejecimiento 4,303,852.50 0.00 4,303,852.50 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…ermedades Cardiometabólicas 16,595,896.00 Total Enfermedades Cardiometabólicas 16,595,896.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 4,303,852.50 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799451",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799451",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Sinaloa.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799451&fecha=24/09/2026",
+      "published": "2026-09-24",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…0,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas P028 6,665,376.00 0.00 6,665,376.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 1,810,624.00 0.00 1,810,624.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 227,781.00 0.00 227,781.00 10 Prevenc…",
+            "…cas 70,333.12 0.00 70,333.12 7 Enfermedades Cardiometabólicas 6,665,376.00 0.00 6,665,376.00 8 Programa de Acción Específico en Atención al Envejecimiento 1,810,624.00 0.00 1,810,624.00 9 Prevención, Detección y Control de las Enfermedades Bucales 227,781.00 0.00 227,781.00 10 Prevención y Cont…",
+            "…nfermedades Cardiometabólicas 6,665,376.00 Total Enfermedades Cardiometabólicas 6,665,376.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 1,810,624.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799461",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799461",
+      "title": "Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 119/2022, así como el Voto Concurrente de la señora Ministra Yasmín Esquivel Mossa.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799461&fecha=24/09/2026",
+      "published": "2026-09-24",
+      "section": "Edición matutina",
+      "organism": "PODER JUDICIAL",
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…vehículos puedan ser seguros, mientras se adquieren nuevas unidades. · De igual manera se violentó el derecho del parlamento abierto de las personas adultas mayores, mujeres, personas con discapacidad y todas aquellas que utilizan el transporte público. Esto resulta relevante en relación con familias en s…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799594",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799594",
+      "title": "Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tabasco.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799594&fecha=25/09/2026",
+      "published": "2026-09-25",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…",
+            "…vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 12,
+          "snippets": [
+            "…376.00 0.00 56,376.00 7 Enfermedades Cardiometabólicas P028 17,780,608.00 0.00 17,780,608.00 8 Programa de Acción Específico en Atención al Envejecimiento P028 4,185,790.00 0.00 4,185,790.00 9 Prevención, Detección y Control de las Enfermedades Bucales P028 123,804.00 0.00 123,804.00 10 Prevenc…",
+            "…s 56,376.00 0.00 56,376.00 7 Enfermedades Cardiometabólicas 17,780,608.00 0.00 17,780,608.00 8 Programa de Acción Específico en Atención al Envejecimiento 4,185,790.00 0.00 4,185,790.00 9 Prevención, Detección y Control de las Enfermedades Bucales 123,804.00 0.00 123,804.00 10 Prevención y Cont…",
+            "…ermedades Cardiometabólicas 17,780,608.00 Total Enfermedades Cardiometabólicas 17,780,608.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento P028 Abril 4,185,790.00 Total Programa de Acción Específico en Atención al Env…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799602",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799602",
+      "title": "Estatuto Orgánico de la Empresa Pública del Estado, Petróleos Mexicanos.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799602&fecha=25/09/2026",
+      "published": "2026-09-25",
+      "section": "Edición matutina",
+      "organism": "EMPRESAS PUBLICAS DEL ESTADO MEXICANO",
+      "score": 4,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…as funciones siguientes: I. Coordinar y articular la prestación de los servicios de salud, así como de un sistema integral de cuidados para personas adultas mayores, brindados a personas trabajadoras, jubiladas y sus derechohabientes de Pemex y, en su caso, Empresas Filiales y terceros; II. Autorizar los…",
+            "…icas y los programas de salud en el trabajo, Salud Pública, calidad y seguridad del paciente, así como un sistema integral de cuidados para personas adultas mayores, y establecer estrategias para verificar su cumplimiento, en coordinación con la Gerencia de Atención Médica; II. Diseñar y ejecutar las pol…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799592",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799592",
+      "title": "Acuerdo por el que se determina ámbito de competencia, se realizan designaciones y se delegan las atribuciones que se indican.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799592&fecha=25/09/2026",
+      "published": "2026-09-25",
+      "section": "Edición matutina",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…Cosío Villegas\"; XLVII. Instituto Nacional de Geriatría; XLVIII. Instituto Nacional de la Economía Social; XLIX. Instituto Nacional de las Personas Adultas Mayores; L. Instituto Nacional de los Pueblos Indígenas; LI. Instituto Nacional de Medicina Genómica; LII. Instituto Nacional de Neurología y Neuroc…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260925.html#Convocatoria23",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260925.html#Convocatoria23",
+      "title": "De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar en modalidad semipresencial el miércoles 30 de septiembre, a las 8:30 horas (cambió de modalidad)",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260925.html#Convocatoria23",
+      "published": "2026-09-25",
+      "section": "Convocatorias",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7133",
+        "ancla": "Convocatoria23"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260928.html#Convocatoria33",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260928.html#Convocatoria33",
+      "title": "De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar el miércoles 30 de septiembre, a las 8:30 horas",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260928.html#Convocatoria33",
+      "published": "2026-09-28",
+      "section": "Convocatorias",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7134",
+        "ancla": "Convocatoria33"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799786",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799786",
+      "title": "Tercer Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y la Ciudad de México.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799786&fecha=29/09/2026",
+      "published": "2026-09-29",
+      "section": "Edición matutina",
+      "organism": "PODER EJECUTIVO",
+      "score": 14,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 2,
+          "snippets": [
+            "…de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.1 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…",
+            "…el tamizaje de alteraciones de memoria 40.00 40.00 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 37,
+          "snippets": [
+            "…TROL DE ENFERMEDADES 7 Enfermedades Cardiometabólicas OB010 21,070,340.00 0.00 21,070,340.00 8 Programa de Acción Específico en Atención al Envejecimiento OB010 3,809,680.00 0.00 3,809,680.00 S u b t o t a l 24,880,020.00 0.00 24,880,020.00 Total U008 35,923,390.15 0.00 35,923,390.15 U009 VIGIL…",
+            "…| Equipo de escritorio 24,000.0000 150 0.00 3,600,000.00 SUBTOTAL PROGRAMA 0.00 7,609,950.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 33603 Servicio de impresion de documentos oficiales para la prestacion…",
+            "…TAL PROGRAMA 0.00 7,609,950.00 8 Programa de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 33603 Servicio de impresion de documentos oficiales para la prestacion de serv. Pub. | Formatos:Detección Osteoporosis y demencia, D…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260929.html#Prevencion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260929.html#Prevencion1",
+      "title": "De la Mesa Directiva",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260929.html#Prevencion1",
+      "published": "2026-09-29",
+      "section": "Prevenciones",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…e decreto por el que se reforman las fracciones XXI y XXII del artículo 10 y se adiciona una fracción XXIII a la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Hilda Magdalena Licerio Valdés, PVEM. Comisión de Atención a Grupos Vulnerables. Expediente 8723. Primera secció…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7135",
+        "ancla": "Prevencion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260929.html#Convocatoria26",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260929.html#Convocatoria26",
+      "title": "De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar el miércoles 30 de septiembre, a las 8:30 horas",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260929.html#Convocatoria26",
+      "published": "2026-09-29",
+      "section": "Convocatorias",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7135",
+        "ancla": "Convocatoria26"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "dof:5799977",
+      "source": "dof",
+      "source_label": "Diario Oficial de la Federación",
+      "doc_id": "5799977",
+      "title": "Acuerdo del Consejo General del Instituto Nacional Electoral, por el que se aprueban las modificaciones a los Procedimientos para la atención a la ciudadanía que está imposibilitada físicamente para acudir al Módulo de Atención Ciudadana y/o que no puede manifestar, por sus propios medios, su voluntad de manera clara, precisa e indubitable, para realizar su trámite de inscripción o actualización al padrón electoral y entrega de la Credencial para Votar.",
+      "url": "https://dof.gob.mx/nota_detalle.php?codigo=5799977&fecha=30/09/2026",
+      "published": "2026-09-30",
+      "section": "Edición matutina",
+      "organism": "ORGANISMOS AUTONOMOS",
+      "score": 12,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 23,
+          "snippets": [
+            "…. DERFE Dirección Ejecutiva del Registro Federal de Electores. INE/Instituto Instituto Nacional Electoral. LDPAM Ley de los Derechos de las Personas Adultas Mayores. LFPED Ley Federal para Prevenir y Eliminar la Discriminación. LGIPD Ley General para la Inclusión de las Personas con Discapacidad. LGIPE L…",
+            "…arantizados por disposiciones legislativas o de otro carácter. 11. De la tutela jurídica de los derechos de las personas con discapacidad y personas adultas mayores. El artículo 1 de la CDPD, aduce que, entre las personas con discapacidad, se incluyen a aquellas que tengan deficiencias físicas, mentales,…",
+            "…es familiares; el idioma; los antecedentes penales, o cualquier otro motivo. También, el artículo 3, fracción I de la LDPAM, señala que las personas adultas mayores son aquellas que cuenten con sesenta años o más de edad y que se encuentren domiciliadas o en tránsito en el territorio nacional. El artícul…"
+          ]
+        },
+        {
+          "term_id": "envejecimiento",
+          "term_label": "Envejecimiento",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…de Edad, adoptada por la Asamblea General de las Naciones Unidas de 1992 o los debates y conclusiones en foros como la Asamblea Mundial del Envejecimiento en Viena en 1982, la Conferencia Mundial sobre Derechos Humanos en 1993 (de la que emanó la Declaración citada), la Conferencia Mundial sobr…"
+          ]
+        }
+      ],
+      "extra": {
+        "via": "html"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260930.html#Intervencion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260930.html#Intervencion1",
+      "title": "De la ciudadana Ma. de Lourdes Cervantes Mendoza, hablante de lengua O’dam",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Intervencion1",
+      "published": "2026-09-30",
+      "section": "Intervenciones",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…e hablar su lengua por miedo o por vergüenza, no solo se pierden palabras: se pierde una parte de nuestra propia historia. Actualmente, son adultos mayores quienes dominan la lengua, mientras que niños y adolescentes usan cada vez menos el idioma, el cual está en riesgo de perderse por la falta d…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7136",
+        "ancla": "Intervencion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260930.html#ProyectodeActa1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260930.html#ProyectodeActa1",
+      "title": "De la sesión en modalidad presencial de la Cámara de Diputados del Congreso de la Unión celebrada el martes 29 de septiembre de 2026, correspondiente al primer periodo de sesiones ordinarias del tercer año de ejercicio de la LXVI Legislatura",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#ProyectodeActa1",
+      "published": "2026-09-30",
+      "section": "Proyecto de Acta",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…nta y cinco, y trescientos cuarenta, y adiciona un artículo trescientos treinta y cinco Bis al Código Penal Federal, en materia abandono de personas adultas mayores, y personas con discapacidad, suscrita por legisladores integrantes de su grupo parlamentario. Se turna a la Comisión de Justicia para dicta…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7136",
+        "ancla": "ProyectodeActa1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260930.html#Prevencion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260930.html#Prevencion1",
+      "title": "De la Mesa Directiva",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Prevencion1",
+      "published": "2026-09-30",
+      "section": "Prevenciones",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…reforman y adicionan diversas disposiciones de la Ley Federal para Prevenir y Eliminar la Discriminación, de la Ley de los Derechos de las Personas Adultas Mayores y de la Ley General de Responsabilidades Administrativas. Presentada por la diputada Laura Ivonne Ruíz Moreno, PRI. Comisión de Atención a G…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7136",
+        "ancla": "Prevencion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260930.html#Comunicacion1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260930.html#Comunicacion1",
+      "title": "De la Mesa Directiva, con la que informa que las siguientes iniciativas, que no fueron dictaminadas dentro del plazo reglamentario, se tienen por desechadas",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Comunicacion1",
+      "published": "2026-09-30",
+      "section": "Comunicaciones",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…octavo del artículo 4o. de la Constitución Política de los Estados Unidos Mexicanos (en materia de inclusión del principio superior de las personas adultas mayores). Presentada por la diputada Azucena Arreola Trinidad, Morena. Comisión de Puntos Constitucionales. Tercera sección. Expediente 4362. LD 328…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7136",
+        "ancla": "Comunicacion1"
+      },
+      "nuevo": true
+    },
+    {
+      "uid": "gaceta:Gaceta/66/2026/sep/20260930.html#Convocatoria1",
+      "source": "gaceta",
+      "source_label": "Gaceta Parlamentaria (Cámara de Diputados)",
+      "doc_id": "Gaceta/66/2026/sep/20260930.html#Convocatoria1",
+      "title": "De la Comisión de Presupuesto y Cuenta Pública, para la realización de mesas de diálogo, que se realizarán hasta el jueves 1 de octubre",
+      "url": "https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Convocatoria1",
+      "published": "2026-09-30",
+      "section": "Convocatorias",
+      "organism": null,
+      "score": 2,
+      "matches": [
+        {
+          "term_id": "personas_mayores",
+          "term_label": "Personas mayores",
+          "in_title": false,
+          "in_body": true,
+          "count": 1,
+          "snippets": [
+            "…dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…"
+          ]
+        }
+      ],
+      "extra": {
+        "gaceta": "7136",
+        "ancla": "Convocatoria1"
+      },
+      "nuevo": true
+    }
+  ],
+  "errores": [],
+  "http": {
+    "requests": 471,
+    "cache_hits": 0,
+    "errors": 0
+  }
+}
