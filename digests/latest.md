@@ -1,377 +1,241 @@
-# Monitor de vejez y envejecimiento — septiembre de 2026
+# Monitor de vejez y envejecimiento — octubre de 2026
 
-**Periodo:** 1 de septiembre de 2026 a 30 de septiembre de 2026  
-**Generado:** 2026-10-01 20:07 UTC  
+**Periodo:** 1 de octubre de 2026 a 31 de octubre de 2026  
+**Generado:** 2026-11-01 19:42 UTC  
 **Términos vigilados:** *Personas mayores*, *Vejez*, *Envejecimiento*
 
-Se revisaron **1005** publicaciones y **58** mencionan los términos vigilados (58 no aparecían en digests previos).
+Se revisaron **395** publicaciones y **26** mencionan los términos vigilados (26 no aparecían en digests previos).
 
 ## Resumen
 
 | Fuente | Revisados | Con menciones | Nuevos |
 | --- | ---: | ---: | ---: |
-| Diario Oficial de la Federación | 390 | 44 | 44 |
-| Gaceta Parlamentaria (Cámara de Diputados) | 615 | 14 | 14 |
+| Diario Oficial de la Federación | 395 | 26 | 26 |
+| Gaceta Parlamentaria (Cámara de Diputados) | 0 | 0 | 0 |
 
 | Término | DOF | Gaceta | Total |
 | --- | ---: | ---: | ---: |
-| Personas mayores | 41 | 14 | 55 |
-| Envejecimiento | 21 | 0 | 21 |
-| Vejez | 1 | 0 | 1 |
+| Personas mayores | 25 | 0 | 25 |
+| Envejecimiento | 12 | 0 | 12 |
+| Vejez | 2 | 0 | 2 |
 
-## Diario Oficial de la Federación (44)
+## Diario Oficial de la Federación (26)
 
-### 1 de septiembre de 2026
+### 2 de octubre de 2026
 
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y la Ciudad de México.](https://dof.gob.mx/nota_detalle.php?codigo=5797568&fecha=01/09/2026)** 🆕 ⭐
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (3×cuerpo), Envejecimiento (13×cuerpo)
-  - > …ortunidad de envio bimensual por la Entidad Federativa. Mide las acciones vinculadas intersectoriales e interinstitucionales dirigidas a la persona mayor en la entidad federativa a través de la evaluación generada por minuta con seguimiento de los acuerdos y compromisos 90.00 90.00 8 Programa d…
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Chihuahua.](https://dof.gob.mx/nota_detalle.php?codigo=5797567&fecha=01/09/2026)** 🆕 ⭐
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Tamaulipas.](https://dof.gob.mx/nota_detalle.php?codigo=5797570&fecha=01/09/2026)** 🆕
+- **[Tercer Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Hidalgo.](https://dof.gob.mx/nota_detalle.php?codigo=5800176&fecha=02/10/2026)** 🆕 ⭐
   - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-- **[Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 59/2025, así como los Votos Particular de la señora Ministra María Estela Ríos González y Concurrente del señor Ministro Irving Espinosa Betanzo.](https://dof.gob.mx/nota_detalle.php?codigo=5797578&fecha=01/09/2026)** 🆕
-  - PODER JUDICIAL · Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …a personal y ajustes derivados de las necesidades particulares de cada participante. Aunado a ello, se establece que solo podrán postularse personas mayores de dieciocho años, lo que implica la exclusión de niñas, niños y adolescentes con discapacidad del proceso participativo. 112. En ese mismo s…
-  - > …blecer un trato desigual resulta objetivo y razonable pues las personas menores de edad, no se encuentran en las mismas condiciones que las personas mayores de edad. Considera que dicha exclusión responde y atiende a las necesidades propias de la edad pues, en su opinión, el Parlamento Infantil d…
-
-### 2 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Coahuila de Zaragoza.](https://dof.gob.mx/nota_detalle.php?codigo=5797712&fecha=02/09/2026)** 🆕 ⭐
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Colima.](https://dof.gob.mx/nota_detalle.php?codigo=5797713&fecha=02/09/2026)** 🆕 ⭐
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Colima.](https://dof.gob.mx/nota_detalle.php?codigo=5797716&fecha=02/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Morelos.](https://dof.gob.mx/nota_detalle.php?codigo=5797717&fecha=02/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-- **[Modificaciones y adiciones a las Disposiciones de carácter general que establecen el procedimiento para la construcción de los indicadores de rendimiento neto de las sociedades de inversión especializadas de fondos para el retiro.](https://dof.gob.mx/nota_detalle.php?codigo=5797700&fecha=02/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Vejez (cuerpo)
-  - > …éste podría obtener de conformidad con el esquema de retiros programados o de acuerdo a los seguros de retiro, cesantía en edad avanzada y vejez establecidos en la Ley del Seguro Social y, en la Ley del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado, o que p…
-
-### 3 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Durango.](https://dof.gob.mx/nota_detalle.php?codigo=5797814&fecha=03/09/2026)** 🆕 ⭐
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Guerrero.](https://dof.gob.mx/nota_detalle.php?codigo=5797815&fecha=03/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Quintana Roo.](https://dof.gob.mx/nota_detalle.php?codigo=5797818&fecha=03/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de San Luis Potosí.](https://dof.gob.mx/nota_detalle.php?codigo=5797819&fecha=03/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-- **[Lineamientos para la Implementación del Modelo Nacional de Atención Ciudadana.](https://dof.gob.mx/nota_detalle.php?codigo=5797826&fecha=03/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …ria, en el menor tiempo posible, a personas pertenecientes a grupos de atención prioritaria, entre ellas: I. Personas con discapacidad; II. Adultas mayores; III. Mujeres embarazadas; IV. Menores de edad, o V. Los demás grupos de atención prioritaria previstos en las disposiciones aplicables en m…
-
-### 4 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Hidalgo.](https://dof.gob.mx/nota_detalle.php?codigo=5797951&fecha=04/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Jalisco.](https://dof.gob.mx/nota_detalle.php?codigo=5797952&fecha=04/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Resolución final del procedimiento administrativo de investigación antidumping sobre las importaciones de perfiles y barras de aluminio originarias de la República Popular China, independientemente del país de procedencia.](https://dof.gob.mx/nota_detalle.php?codigo=5797943&fecha=04/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Envejecimiento (2×cuerpo)
-  - > …la forma deseada. 11. Adicionalmente, después de salir de la matriz, la extrusión se enfría y puede ser estirada, cortada o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. También pueden someterse a un acabado o procesamiento adicional, como revestimiento o t…
-  - > …eada. 269. Adicionalmente, después de salir de la matriz, la extrusión de billets se enfría y puede ser estirada, cortada, o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. También pueden someterse a un acabado o procesamiento adicional, como revestimiento o t…
-- **[Resolución final del procedimiento administrativo de investigación antidumping sobre las importaciones de perfiles huecos de aluminio originarias de los Estados Unidos de América y la República Popular China, independientemente del país de procedencia.](https://dof.gob.mx/nota_detalle.php?codigo=5798041&fecha=04/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición vespertina
-  - Términos: Envejecimiento (cuerpo)
-  - > …eseada. 11. Después de salir de la matriz, la extrusión de billets o palanquillas se enfría y puede ser estirada, cortada, o endurecida por envejecimiento, ya sea natural o artificialmente a través de hornos. Asimismo, pueden someterse a un acabado o procesamiento adicional, como revestimiento o…
-
-### 7 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Michoacán.](https://dof.gob.mx/nota_detalle.php?codigo=5798069&fecha=07/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Nayarit.](https://dof.gob.mx/nota_detalle.php?codigo=5798070&fecha=07/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Coahuila y el Municipio de Acuña.](https://dof.gob.mx/nota_detalle.php?codigo=5798073&fecha=07/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de México y el Municipio de Tepetlaoxtoc.](https://dof.gob.mx/nota_detalle.php?codigo=5798074&fecha=07/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-
-### 8 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Nuevo León.](https://dof.gob.mx/nota_detalle.php?codigo=5798121&fecha=08/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de México y el Municipio de Tultepec.](https://dof.gob.mx/nota_detalle.php?codigo=5798123&fecha=08/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Oaxaca y el Municipio de San Pedro Comitancillo.](https://dof.gob.mx/nota_detalle.php?codigo=5798124&fecha=08/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-
-### 9 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tlaxcala.](https://dof.gob.mx/nota_detalle.php?codigo=5798270&fecha=09/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Zacatecas.](https://dof.gob.mx/nota_detalle.php?codigo=5798271&fecha=09/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Programa Institucional de Educal, S.A. de C.V. 2026-2030.](https://dof.gob.mx/nota_detalle.php?codigo=5798268&fecha=09/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (8×cuerpo)
-  - > …ieron 2,901,201 personas, y se proyecta cerrar 2026 con 2,550,000 personas atendidas, frente a una población potencial de 115.2 millones de personas mayores de seis años en nuestro país. Estas cifras reflejan la amplitud y relevancia de la acción institucional de Educal como instrumento de inclus…
-  - > …, cultural y económico del país: · Débil formación lectora en amplios sectores de la población, especialmente entre infancias, juventudes y adultos mayores. · Limitado desarrollo de habilidades de comprensión, análisis y pensamiento crítico, que incide en los niveles de aprendizaje escolar. · Re…
-
-### 10 de septiembre de 2026
-
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano y el Estado de Sonora.](https://dof.gob.mx/nota_detalle.php?codigo=5798369&fecha=10/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Veracruz de Ignacio de la Llave y el Municipio de Minatitlán.](https://dof.gob.mx/nota_detalle.php?codigo=5798370&fecha=10/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-
-### 14 de septiembre de 2026
-
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Tabasco y el Municipio de Centla (CCE/DGIE/004/2026).](https://dof.gob.mx/nota_detalle.php?codigo=5798769&fecha=14/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-
-### 15 de septiembre de 2026
-
-- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Puebla y el Comité Administrador Poblano para la Construcción de Espacios Educativos.](https://dof.gob.mx/nota_detalle.php?codigo=5798812&fecha=15/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
-
-### 17 de septiembre de 2026
-
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Coahuila de Zaragoza.](https://dof.gob.mx/nota_detalle.php?codigo=5798904&fecha=17/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-
-### 18 de septiembre de 2026
-
-- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Chiapas.](https://dof.gob.mx/nota_detalle.php?codigo=5799049&fecha=18/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (3×cuerpo)
-  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
-  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
-
-### 21 de septiembre de 2026
-
-- **[Convenio de Coordinación que celebran la Secretaría de Gobernación y la Secretaría de Bienestar del Gobierno del Estado de México, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre las personas usuarias de Bienestar Edomex.](https://dof.gob.mx/nota_detalle.php?codigo=5799137&fecha=21/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …prioritaria e inmediata, que muestren mayor pobreza, marginación y exclusión; a la población indígena, mujeres, niñas, niños, adolescentes, adultos mayores, familias de los migrantes, personas con discapacidad, población en situación de calle, o que se encuentren en situación de vulnerabilidad s…
-
-### 22 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Baja California Sur.](https://dof.gob.mx/nota_detalle.php?codigo=5799249&fecha=22/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-
-### 23 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de México.](https://dof.gob.mx/nota_detalle.php?codigo=5799364&fecha=23/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-
-### 24 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Sinaloa.](https://dof.gob.mx/nota_detalle.php?codigo=5799451&fecha=24/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Sentencia dictada por el Tribunal Pleno de la Suprema Corte de Justicia de la Nación en la Acción de Inconstitucionalidad 119/2022, así como el Voto Concurrente de la señora Ministra Yasmín Esquivel Mossa.](https://dof.gob.mx/nota_detalle.php?codigo=5799461&fecha=24/09/2026)** 🆕
-  - PODER JUDICIAL · Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …vehículos puedan ser seguros, mientras se adquieren nuevas unidades. · De igual manera se violentó el derecho del parlamento abierto de las personas adultas mayores, mujeres, personas con discapacidad y todas aquellas que utilizan el transporte público. Esto resulta relevante en relación con familias en s…
-
-### 25 de septiembre de 2026
-
-- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tabasco.](https://dof.gob.mx/nota_detalle.php?codigo=5799594&fecha=25/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
-  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
-  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
-- **[Estatuto Orgánico de la Empresa Pública del Estado, Petróleos Mexicanos.](https://dof.gob.mx/nota_detalle.php?codigo=5799602&fecha=25/09/2026)** 🆕
-  - EMPRESAS PUBLICAS DEL ESTADO MEXICANO · Edición matutina
-  - Términos: Personas mayores (2×cuerpo)
-  - > …as funciones siguientes: I. Coordinar y articular la prestación de los servicios de salud, así como de un sistema integral de cuidados para personas adultas mayores, brindados a personas trabajadoras, jubiladas y sus derechohabientes de Pemex y, en su caso, Empresas Filiales y terceros; II. Autorizar los…
-  - > …icas y los programas de salud en el trabajo, Salud Pública, calidad y seguridad del paciente, así como un sistema integral de cuidados para personas adultas mayores, y establecer estrategias para verificar su cumplimiento, en coordinación con la Gerencia de Atención Médica; II. Diseñar y ejecutar las pol…
-- **[Acuerdo por el que se determina ámbito de competencia, se realizan designaciones y se delegan las atribuciones que se indican.](https://dof.gob.mx/nota_detalle.php?codigo=5799592&fecha=25/09/2026)** 🆕
-  - Edición matutina
-  - Términos: Personas mayores (cuerpo)
-  - > …Cosío Villegas"; XLVII. Instituto Nacional de Geriatría; XLVIII. Instituto Nacional de la Economía Social; XLIX. Instituto Nacional de las Personas Adultas Mayores; L. Instituto Nacional de los Pueblos Indígenas; LI. Instituto Nacional de Medicina Genómica; LII. Instituto Nacional de Neurología y Neuroc…
-
-### 29 de septiembre de 2026
-
-- **[Tercer Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y la Ciudad de México.](https://dof.gob.mx/nota_detalle.php?codigo=5799786&fecha=29/09/2026)** 🆕
-  - PODER EJECUTIVO · Edición matutina
-  - Términos: Personas mayores (2×cuerpo), Envejecimiento (37×cuerpo)
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (16×cuerpo)
   - > …de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.1 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
   - > …el tamizaje de alteraciones de memoria 40.00 40.00 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
 
-### 30 de septiembre de 2026
+### 5 de octubre de 2026
 
-- **[Acuerdo del Consejo General del Instituto Nacional Electoral, por el que se aprueban las modificaciones a los Procedimientos para la atención a la ciudadanía que está imposibilitada físicamente para acudir al Módulo de Atención Ciudadana y/o que no puede manifestar, por sus propios medios, su voluntad de manera clara, precisa e indubitable, para realizar su trámite de inscripción o actualización al padrón electoral y entrega de la Credencial para Votar.](https://dof.gob.mx/nota_detalle.php?codigo=5799977&fecha=30/09/2026)** 🆕
+- **[Tercer Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Oaxaca.](https://dof.gob.mx/nota_detalle.php?codigo=5800288&fecha=05/10/2026)** 🆕 ⭐
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (7×cuerpo)
+  - > …de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.1 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
+  - > …el tamizaje de alteraciones de memoria 40.00 40.00 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
+- **[Convenio de Coordinación Específico para el ejercicio de subsidios del Programa Territorial para el Bienestar 2026, de la Vertiente Infraestructura y Equipamiento, que celebran la Secretaría de Desarrollo Agrario, Territorial y Urbano, el Estado de Quintana Roo y el Municipio de Felipe Carrillo Puerto.](https://dof.gob.mx/nota_detalle.php?codigo=5800290&fecha=05/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (cuerpo)
+  - > …cionar acceso universal a zonas verdes y espacios públicos seguros, inclusivos y accesibles, en particular para las mujeres y la niñez, las personas mayores de edad y las personas con discapacidad; de apoyar los vínculos económicos, sociales y ambientales positivos entre las zonas urbanas, periur…
+
+### 6 de octubre de 2026
+
+- **[Tercer Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Puebla.](https://dof.gob.mx/nota_detalle.php?codigo=5800397&fecha=06/10/2026)** 🆕 ⭐
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (13×cuerpo)
+  - > …de Acción Específico en Atención al Envejecimiento 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.1 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
+  - > …el tamizaje de alteraciones de memoria 40.00 40.00 8 Programa de Acción Específico en Atención al Envejecimiento 3.3.1.2 Resultado Total de personas mayores con tamizajes realizados de alteraciones de memoria Población de 60 y más años sin derechohabiencia Medir el porcentaje de mujeres y hombres…
+- **[Convenio de Coordinación y Adhesión que celebran la Secretaría de las Mujeres y el Estado de Guanajuato, que tiene por objeto el otorgamiento de subsidio para el Proyecto MUJERES/AVGM/GTO/2026, que permita dar cumplimiento a la aplicación de recursos destinados al Componente B: Acciones de Coadyuvancia derivadas de las Declaratorias de Alerta de Violencia de Género contra las Mujeres.](https://dof.gob.mx/nota_detalle.php?codigo=5800399&fecha=06/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo)
+  - > …RUPO ETARIO 0 a 6 7 a 11 12 a 17 18 a 30 31 a 59 60 y más Personas servidoras públicas o personas operadoras jurídicas Niñas y adolescentes Personas adultas mayores Personas indígenas Personas migrantes y/o refugiadas Personas afromexicanas Personas desplazadas internas Personas con discapacidad Personas…
+  - > …RUPO ETARIO 0 a 6 7 a 11 12 a 17 18 a 30 31 a 59 60 y más Personas servidoras públicas o personas operadoras jurídicas Niños y adolescentes Personas adultas mayores Hombres Otras personas COBERTURA GEOGRÁFICA 17 municipios del Estado de Guanajuato: Abasolo, Acámbaro, Apaseo el Alto, Apaseo el Grande, Cel…
+
+### 8 de octubre de 2026
+
+- **[Convenio de Coordinación que celebran la Secretaría de Turismo y el Estado de Quintana Roo, que tiene por objeto verificar el cumplimiento de la Ley General de Turismo, su Reglamento, la Ley de Infraestructura de la Calidad, vinculada a las normas oficiales mexicanas en la materia, así como el fortalecimiento de las atribuciones que tienen encomendadas por ministerio de Ley, en el procedimiento de verificación de los prestadores de servicios turísticos en la entidad.](https://dof.gob.mx/nota_detalle.php?codigo=5800735&fecha=08/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (cuerpo)
+  - > …de (Ley General de Turismo, Reglamento de la Ley o Norma Oficial Mexicana en materia turística). Se procede a solicitar la presencia de dos personas mayores de edad, que fungirán como testigos durante toda la diligencia (se nombran en ese momento). Es necesario que permanezca junto con los testig…
+
+### 12 de octubre de 2026
+
+- **[Norma Oficial Mexicana NOM-253-SSA1-2025, Para la disposición de sangre humana y sus componentes con fines terapéuticos.](https://dof.gob.mx/nota_detalle.php?codigo=5800942&fecha=12/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (cuerpo)
+  - > …n niños con peso corporal entre 10 y 20 kg, deberá hacerse remplazo volumétrico con soluciones; 13.2.7.2 Deberán extremarse los cuidados en personas mayores de 70 años; 13.2.7.3 Durante la extracción sanguínea en embarazadas se deberá vigilar estrechamente la aparición de contracciones uterinas y…
+
+### 13 de octubre de 2026
+
+- **[Lineamientos Generales para la operación de la Casa de Día del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado.](https://dof.gob.mx/nota_detalle.php?codigo=5800989&fecha=13/10/2026)** 🆕 ⭐
+  - ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS · Edición matutina
+  - Términos: Personas mayores (9×cuerpo), Vejez (3×cuerpo), Envejecimiento (2×cuerpo)
+  - > …nes orientadas a promover el bienestar físico, mental y social de las personas. Que los artículos 6o. y 10 de la Ley de los Derechos de las Personas Adultas Mayores establece, entre otras cosas, que el Estado garantizará las condiciones óptimas de salud, educación, nutrición, vivienda, desarrollo integra…
+  - > …s, que el Estado garantizará las condiciones óptimas de salud, educación, nutrición, vivienda, desarrollo integral y seguridad social a las personas adultas mayores con el fin de lograr plena calidad de vida para su vejez, y que dentro de los objetivos de la Política Nacional sobre personas adultas mayor…
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Chiapas.](https://dof.gob.mx/nota_detalle.php?codigo=5800980&fecha=13/10/2026)** 🆕 ⭐
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+- **[Acuerdo del Consejo General del Instituto Nacional Electoral por el que se designa o ratifica, según corresponda, a las Consejeras y Consejeros Electorales de los Consejos Locales del Instituto Nacional Electoral para el Proceso Electoral Federal 2026-2027 y, en su caso, 2029- 2030.](https://dof.gob.mx/nota_detalle.php?codigo=5801000&fecha=13/10/2026)** 🆕
   - ORGANISMOS AUTONOMOS · Edición matutina
-  - Términos: Personas mayores (23×cuerpo), Envejecimiento (cuerpo)
-  - > …. DERFE Dirección Ejecutiva del Registro Federal de Electores. INE/Instituto Instituto Nacional Electoral. LDPAM Ley de los Derechos de las Personas Adultas Mayores. LFPED Ley Federal para Prevenir y Eliminar la Discriminación. LGIPD Ley General para la Inclusión de las Personas con Discapacidad. LGIPE L…
-  - > …arantizados por disposiciones legislativas o de otro carácter. 11. De la tutela jurídica de los derechos de las personas con discapacidad y personas adultas mayores. El artículo 1 de la CDPD, aduce que, entre las personas con discapacidad, se incluyen a aquellas que tengan deficiencias físicas, mentales,…
+  - Términos: Personas mayores (cuerpo)
+  - > …de ellas. La conciencia de la identidad indígena el criterio fundamental para determinarles como tales, es decir, que se autoadscriben. e) Personas adultas mayores. Son aquellas que cuentan con 60 años o más. f) Personas jóvenes. Las personas jóvenes enfrentan un problema de discriminación estructural q…
 
-## Gaceta Parlamentaria (Cámara de Diputados) (14)
+### 14 de octubre de 2026
 
-### 4 de septiembre de 2026
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Guanajuato.](https://dof.gob.mx/nota_detalle.php?codigo=5801168&fecha=14/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+- **[Convenio de Coordinación que celebran la Secretaría de Gobernación y el Instituto de Seguridad Social de los Trabajadores del Estado de Chiapas, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre las personas usuarias del ISSTECH.](https://dof.gob.mx/nota_detalle.php?codigo=5801160&fecha=14/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Vejez (3×cuerpo)
+  - > …ste ordenamiento exige para obtenerlas. Los afiliados o sus beneficiarios tendrán derecho a una pensión bajo las modalidades de jubilación; vejez; retiro anticipado; retiro anticipado en edad avanzada; incapacidad por riesgos de trabajo; fallecimiento por riesgos de trabajo; invalidez p…
+  - > …cuenta que faciliten el trámite para el otorgamiento y recuperaciones de créditos otorgados a los asegurados y pensionados por jubilación, vejez e invalidez, como lo establecen los artículos 19, fracciones XIX, y 32, fracciones IV, V y VII del Reglamento Interior del Instituto de Segu…
 
-- **[De la Comisión de Atención a Grupos Vulnerables, correspondiente a la decimosexta reunión ordinaria, efectuada el martes 25 de agosto de 2026](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260904.html#Acta1)** 🆕
-  - Actas
-  - Términos: Personas mayores (16×cuerpo)
-  - > …bienvenida a la maestra Rocío Ruiz López, directora de Fortalecimiento y Operación de las Políticas Públicas del Instituto Nacional de las Personas Adultas Mayores (Inapam), a quien agradeció su presencia y disposición para compartir con las y los integrantes de la Comisión información relacionada con e…
-  - > …ión para compartir con las y los integrantes de la Comisión información relacionada con el trabajo que realiza el Instituto en favor de las personas adultas mayores. La maestra Rocío Ruiz López agradeció la invitación y realizó una exposición sobre el marco jurídico que rige las actividades del Inapam, d…
-- **[De la Comisión de Turismo, referente a la decimonovena reunión ordinaria, llevada a cabo el martes 21 de julio de 2026](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260904.html#Acta7)** 🆕
-  - Actas
-  - Términos: Personas mayores (2×cuerpo)
-  - > …muy importante ya considerar en la Ley General de Turismo a las personas con espectro autista, tanto a niñas, niños, adolescentes, así como adultos mayores. La diputada Noemí Luna, señaló que su iniciativa fue para apoyar a Zacatecas, y a todas las personas del país que tienen alguna discapacida…
-  - > …ogrará impulsar la accesibilidad universal, para brindar condiciones más seguras y adecuadas a las personas con alguna discapacidad y a las personas adultas mayores. La diputada Tania Palacios Kuri expresó que el dictamen se debe considerar una acción afirmativa, dado que se actuó en coordinación con dep…
+### 15 de octubre de 2026
 
-### 8 de septiembre de 2026
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Morelos.](https://dof.gob.mx/nota_detalle.php?codigo=5801254&fecha=15/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+- **[Convenio de Coordinación que celebran la Secretaría de Gobernación y el Sistema para el Desarrollo Integral de la Familia del Estado de San Luis Potosí, para promover la adopción, el uso y la certificación de la Clave Única de Registro de Población (CURP), entre los usuarios del DIF SLP.](https://dof.gob.mx/nota_detalle.php?codigo=5801243&fecha=15/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (13×cuerpo)
+  - > …tos adecuados, para las personas usuarias de establecimientos públicos de asistencia social que prestan servicios de atención residencial a personas adultas mayores, personas con discapacidad, niñas, niños y adolescentes; así como otros grupos de atención prioritaria; así como en establecimientos público…
+  - > …s de los mecanismos necesarios para atender la demanda de estos. XX. El artículo 5, fracción VI, inciso a, de la Ley de los Derechos de las Personas Adultas Mayores garantiza a las personas adultas mayores el derecho de la asistencia social, es decir, ser sujetos de programas de asistencia social en caso…
 
-- **[De la sesión en modalidad semipresencial de la Cámara de Diputados del Congreso de la Unión celebrada el miércoles 2 de septiembre de 2026, correspondiente al primer periodo de sesiones ordinarias del tercer año de ejercicio de la LXVI Legislatura](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260908.html#ProyectodeActa1)** 🆕
-  - Proyecto de Acta
+### 16 de octubre de 2026
+
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Oaxaca.](https://dof.gob.mx/nota_detalle.php?codigo=5801383&fecha=16/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+
+### 19 de octubre de 2026
+
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Sonora.](https://dof.gob.mx/nota_detalle.php?codigo=5801481&fecha=19/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (8×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+
+### 20 de octubre de 2026
+
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de San Luis Potosí.](https://dof.gob.mx/nota_detalle.php?codigo=5801550&fecha=20/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
+- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Baja California.](https://dof.gob.mx/nota_detalle.php?codigo=5801552&fecha=20/10/2026)** 🆕
+  - Edición matutina
   - Términos: Personas mayores (3×cuerpo)
-  - > …al, que adiciona un artículo trescientos ochenta y seis Bis al Código Penal Federal, en materia de delito de fraude digital cometido contra adultos mayores. Se turna a la Comisión de Justicia para dictamen. - Patricia Mercado Castro, de Movimiento Ciudadano, que reforma y adiciona diversas dispo…
-  - > …Recursos Naturales, para dictamen. - Bruno Blancas Mercado, de Morena, que reforma diversas disposiciones de la Ley de los Derechos de las Personas Adultas Mayores; y del Código Civil Federal, en materia de protección patrimonial del adulto mayor. Se turna a las Comisiones Unidas de Atención a Grupos Vu…
-
-### 15 de septiembre de 2026
-
-- **[De la Mesa Directiva](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260915.html#Prevencion1)** 🆕
-  - Prevenciones
-  - Términos: Personas mayores (cuerpo)
-  - > …. Iniciativa con proyecto de decreto por el que se adiciona un inciso c) a la fracción IV del artículo 5o. de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por el diputado César Alejandro Domínguez Domínguez, PRI. Comisión de Atención a Grupos Vulnerables. Expediente 8557. Tercera se…
-
-### 17 de septiembre de 2026
-
-- **[De la Mesa Directiva](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260917.html#Prevencion1)** 🆕
-  - Prevenciones
+  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
+  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
+- **[Acuerdo del Consejo General del Instituto Nacional Electoral por el que se aprueba el modelo de operación para la organización del Voto Anticipado para el Proceso Electoral Concurrente 2026-2027 y las Elecciones Extraordinarias que de este deriven.](https://dof.gob.mx/nota_detalle.php?codigo=5801562&fecha=20/10/2026)** 🆕
+  - ORGANISMOS AUTONOMOS · Edición matutina
   - Términos: Personas mayores (2×cuerpo)
-  - > …uinta sección. 13. Iniciativa con proyecto de decreto por el que se reforma la fracción I del artículo 6o. de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Leticia Farfán Vázquez, Morena. Comisión de Atención a Grupos Vulnerables. Expediente 8596. Séptima sección. 14.…
-  - > …ediente 8599. Tercera sección. 16. Iniciativa con proyecto de decreto por el que se reforma el artículo 20 de la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Rosa Guadalupe Ortega Tiburcio, Morena. Comisión de Atención a Grupos Vulnerables. Expediente 8601. Quinta secci…
+  - > …o necesiten por su edad, condición de salud, discapacidad o dependencia. Asimismo, se puede tratar de infantes, niñas, niños, adolescentes, personas adultas mayores, personas con discapacidad física o mental, o personas con alguna enfermedad temporal. (1) Se considerará a persona o personas cuidadoras pr…
+  - > …e Voto Anticipado, se mantuviera la modalidad postal debido a que la mayoría de las personas que se acogen al artículo 141 de la LGIPE, son adultas mayores y se les podría dificultar la utilización de dispositivos electrónicos. Además, dicha modalidad ha sido probada en múltiples ejercicios y pr…
 
-### 25 de septiembre de 2026
+### 21 de octubre de 2026
 
-- **[De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar en modalidad semipresencial el miércoles 30 de septiembre, a las 8:30 horas (cambió de modalidad)](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260925.html#Convocatoria23)** 🆕
-  - Convocatorias
-  - Términos: Personas mayores (cuerpo)
-  - > …dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…
+- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Hidalgo.](https://dof.gob.mx/nota_detalle.php?codigo=5801700&fecha=21/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (3×cuerpo)
+  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
+  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
 
-### 28 de septiembre de 2026
+### 22 de octubre de 2026
 
-- **[De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar el miércoles 30 de septiembre, a las 8:30 horas](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260928.html#Convocatoria33)** 🆕
-  - Convocatorias
-  - Términos: Personas mayores (cuerpo)
-  - > …dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Tamaulipas.](https://dof.gob.mx/nota_detalle.php?codigo=5801848&fecha=22/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
 
-### 29 de septiembre de 2026
+### 23 de octubre de 2026
 
-- **[De la Comisión de Comunicaciones y Transportes, a la novena reunión ordinaria, que tendrá lugar el miércoles 30 de septiembre, a las 8:30 horas](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260929.html#Convocatoria26)** 🆕
-  - Convocatorias
-  - Términos: Personas mayores (cuerpo)
-  - > …dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…
-- **[De la Mesa Directiva](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260929.html#Prevencion1)** 🆕
-  - Prevenciones
-  - Términos: Personas mayores (cuerpo)
-  - > …e decreto por el que se reforman las fracciones XXI y XXII del artículo 10 y se adiciona una fracción XXIII a la Ley de los Derechos de las Personas Adultas Mayores. Presentada por la diputada Hilda Magdalena Licerio Valdés, PVEM. Comisión de Atención a Grupos Vulnerables. Expediente 8723. Primera secció…
+- **[Segundo Convenio Modificatorio al Convenio Específico de Coordinación en materia de transferencia de insumos y ministración de recursos presupuestarios federales para realizar acciones en materia de salud pública en las entidades federativas, que celebran la Secretaría de Salud y el Estado de Yucatán.](https://dof.gob.mx/nota_detalle.php?codigo=5802003&fecha=23/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (2×cuerpo), Envejecimiento (12×cuerpo)
+  - > …esultado Porcentaje de tamizajes de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la V…
+  - > …vidades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) a Personas Mayores. Mide el porcentaje de personas mayores con tamizaje de Actividades Instrumentales de la Vida Diaria (AIVD) y de Actividades Básicas de la Vida Diaria (ABVD) por entidad federativa…
 
-### 30 de septiembre de 2026
+### 27 de octubre de 2026
 
-- **[De la Comisión de Presupuesto y Cuenta Pública, para la realización de mesas de diálogo, que se realizarán hasta el jueves 1 de octubre](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Convocatoria1)** 🆕
-  - Convocatorias
-  - Términos: Personas mayores (cuerpo)
-  - > …dinación con los proveedores del servicio de telefonía móvil, a implementar campañas de orientación, apoyo y acompañamiento dirigidas a las personas adultas mayores y demás personas que se encuentran en situación de vulnerabilidad, a fin de facilitar el registro de sus líneas telefónicas. Suscrita por la…
-- **[De la Mesa Directiva](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Prevencion1)** 🆕
-  - Prevenciones
-  - Términos: Personas mayores (cuerpo)
-  - > …reforman y adicionan diversas disposiciones de la Ley Federal para Prevenir y Eliminar la Discriminación, de la Ley de los Derechos de las Personas Adultas Mayores y de la Ley General de Responsabilidades Administrativas. Presentada por la diputada Laura Ivonne Ruíz Moreno, PRI. Comisión de Atención a G…
-- **[De la Mesa Directiva, con la que informa que las siguientes iniciativas, que no fueron dictaminadas dentro del plazo reglamentario, se tienen por desechadas](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Comunicacion1)** 🆕
-  - Comunicaciones
-  - Términos: Personas mayores (cuerpo)
-  - > …octavo del artículo 4o. de la Constitución Política de los Estados Unidos Mexicanos (en materia de inclusión del principio superior de las personas adultas mayores). Presentada por la diputada Azucena Arreola Trinidad, Morena. Comisión de Puntos Constitucionales. Tercera sección. Expediente 4362. LD 328…
-- **[De la ciudadana Ma. de Lourdes Cervantes Mendoza, hablante de lengua O’dam](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#Intervencion1)** 🆕
-  - Intervenciones
-  - Términos: Personas mayores (cuerpo)
-  - > …e hablar su lengua por miedo o por vergüenza, no solo se pierden palabras: se pierde una parte de nuestra propia historia. Actualmente, son adultos mayores quienes dominan la lengua, mientras que niños y adolescentes usan cada vez menos el idioma, el cual está en riesgo de perderse por la falta d…
-- **[De la sesión en modalidad presencial de la Cámara de Diputados del Congreso de la Unión celebrada el martes 29 de septiembre de 2026, correspondiente al primer periodo de sesiones ordinarias del tercer año de ejercicio de la LXVI Legislatura](https://gaceta.diputados.gob.mx/Gaceta/66/2026/sep/20260930.html#ProyectodeActa1)** 🆕
-  - Proyecto de Acta
-  - Términos: Personas mayores (cuerpo)
-  - > …nta y cinco, y trescientos cuarenta, y adiciona un artículo trescientos treinta y cinco Bis al Código Penal Federal, en materia abandono de personas adultas mayores, y personas con discapacidad, suscrita por legisladores integrantes de su grupo parlamentario. Se turna a la Comisión de Justicia para dicta…
+- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Durango.](https://dof.gob.mx/nota_detalle.php?codigo=5802189&fecha=27/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (3×cuerpo)
+  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
+  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
+
+### 28 de octubre de 2026
+
+- **[Acuerdo SE/III-26/10,S del Comité Técnico del Consejo Nacional de Normalización y Certificación de Competencias Laborales, mediante el cual se aprobaron los Estándares de Competencia que se indican.](https://dof.gob.mx/nota_detalle.php?codigo=5802372&fecha=28/10/2026)** 🆕
+  - ORGANISMOS DESCONCENTRADOS O DESCENTRALIZADOS · Edición matutina
+  - Términos: Personas mayores (12×cuerpo)
+  - > …faciales 52. Prestación de servicios estéticos corporales 53. Aplicación de programas individuales de actividad física multicomponente para personas mayores 54. Ejecución de las atribuciones de Ecología y Medio Ambiente Municipal 55. Promoción de la alimentación saludable en personas mayores 56. A…
+  - > …ara personas mayores 54. Ejecución de las atribuciones de Ecología y Medio Ambiente Municipal 55. Promoción de la alimentación saludable en personas mayores 56. Aplicación de los protocolos de pintura en reparaciones estructurales/cromática en las aeronaves de la Fuerza Aérea Mexicana 57. Atenció…
+- **[Convenio de Coordinación para la operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de México.](https://dof.gob.mx/nota_detalle.php?codigo=5802366&fecha=28/10/2026)** 🆕
+  - PODER EJECUTIVO · Edición matutina
+  - Términos: Personas mayores (4×cuerpo)
+  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
+  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
+
+### 29 de octubre de 2026
+
+- **[Convenio de Coordinación para la Operación del Programa de Apoyo al Empleo que, en el marco del Servicio Nacional de Empleo, celebran la Secretaría del Trabajo y Previsión Social y el Estado de Aguascalientes.](https://dof.gob.mx/nota_detalle.php?codigo=5802472&fecha=29/10/2026)** 🆕
+  - Edición matutina
+  - Términos: Personas mayores (3×cuerpo)
+  - > …z y datos; equipos de cómputo para el personal, y equipos para identificación de habilidades y capacidades de personas con discapacidad y/o personas adultas mayores. 6. Impulsar la capacitación y/o profesionalización del personal adscrito a la OSNE que participe en la ejecución del PAE, para mejorar sus c…
+  - > …lidad, necesarias para la atención de las Personas Buscadoras de Empleo y las Instancias Empleadoras, incluidas personas con discapacidad y adultas mayores; en esos espacios se desarrollarán de manera eficiente las actividades de intermediación laboral y movilidad laboral descritas en las Reglas…
 
 ---
 
-Peticiones HTTP: 471 (cache: 0).
+Peticiones HTTP: 604 (cache: 0).
+
+<details><summary>Incidencias (31)</summary>
+
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261001.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261001.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261001.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261002.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261002.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261002.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261003.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261003.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261003.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261004.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261004.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261004.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261005.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261005.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261005.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261006.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261006.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261006.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261007.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261007.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261007.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261008.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261008.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261008.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261009.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261009.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261009.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261010.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261010.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261010.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261011.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261011.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261011.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261012.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261012.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261012.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261013.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261013.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261013.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261014.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261014.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261014.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261015.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261015.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261015.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261016.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261016.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261016.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261017.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261017.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261017.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261018.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261018.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261018.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261019.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261019.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261019.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261020.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261020.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261020.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261021.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261021.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261021.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261022.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261022.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261022.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261023.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261023.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261023.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261024.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261024.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261024.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261025.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261025.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261025.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261026.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261026.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261026.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261027.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261027.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261027.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261028.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261028.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261028.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261029.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261029.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261029.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261030.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261030.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261030.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+- Gaceta https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261031.html: No se pudo descargar https://gaceta.diputados.gob.mx/Gaceta/66/2026/oct/20261031.html: HTTPSConnectionPool(host='gaceta.diputados.gob.mx', port=443): Max retries exceeded with url: /Gaceta/66/2026/oct/20261031.html (Caused by SSLError(SSLCertVerificationError(1, '\[SSL: CERTIFICATE_VERIFY_FAILED\] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))
+
+</details>
 
 _Generado automáticamente por [dofwatch](../README.md); las coincidencias son literales y conviene verificar el documento fuente._
